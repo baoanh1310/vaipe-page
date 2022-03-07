@@ -1,0 +1,106 @@
+.home_header
+  height: 624px
+  padding: 75px 80px
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  background-color: #2A82C4
+
+  .home_title
+    text-align: center
+    font-weight: bold
+    font-size: 96px
+    line-height: 120px
+    color: white
+    margin-top: 150px
+
+  .home_subtitle
+    text-align: center
+    font-weight: 500
+    font-size: 16px
+    line-height: 32px
+    color: white
+    margin-top: 12px
+
+.home
+  display: flex
+  background: linear-gradient(115.27deg, #00A8E3 10.94%, #386AB3 106.01%);
+  min-height: 85vh
+  .home_content
+    width: 50%
+    padding: 84px 64px
+    margin: 24px
+    background-size: contain
+    background-position: bottom left
+    background-repeat: no-repeat
+    .home_content_title
+      font-size: 28px
+      line-height: 35px
+      font-weight: normal
+      color: white
+      margin-bottom: 28px
+    .home_content_line
+      width: 72px
+      height: 2px
+      background-color: white
+      margin-bottom: 32px
+    .home_content_description
+      text-align: justify
+      font-size: 14px
+      line-height: 24px
+      color: white
+      margin-bottom: 40px
+    .home_button_explore
+      padding: 5px
+      color: #2A82C4
+      font-size: 20px
+      line-height: 30px
+      text-align: center
+      font-weight: bold
+      background-color: white
+      border-radius: 32px
+      display: inline-flex
+      align-items: center
+      text-decoration: none
+      span
+        margin-left: 27px
+        margin-right: 16px
+      img
+        width: auto
+  .home_background_wrapper
+    display: flex
+    justify-content: flex-start
+    width: 50%
+    .home_background img
+      background-size: contain
+      background-position: center
+      background-repeat: no-repeat
+      width: 600px
+      height: 600px
+
+@media (max-width: 1199.98px) 
+  .home
+    flex-direction: column
+    .home_content
+      width: 100%
+      order: 2
+      margin: 0
+      text-align: center
+      padding: 0 20px 32px
+      .home_content_line
+        margin-left: auto
+        margin-right: auto
+      .home_content_description
+        text-align: center
+    .home_background_wrapper
+      width: 100%
+      display: flex
+      justify-content: center
+      .home_background
+        img
+          padding: 20px 98px
+          width: auto
+          height: 432px
+          order: 1
+        
+      

@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.sass";
+import Footer from "./Footer/Footer.jsx";
+import Header from "./Header/Header.jsx";
+import Home from "./Pages/Home/Home.jsx";
+import Team from "./Pages/Team/Team.jsx";
+import Objective from "./Pages/Objective/Objective.jsx";
+import Publication from "./Pages/Publication/Publication.jsx";
+import News from "./Pages/News/News.jsx";
+import NewsDetail from "./Pages/NewsDetail/NewsDetail.jsx";
+import Contact from "./Pages/Contact/Contact.jsx";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/team" component={Team} />
+          <Route exact path="/objective" component={Objective} />
+          <Route exact path="/publication" component={Publication} />
+          <Route exact path="/news" component={News} />
+          <Route exact path="/contact" component={Contact} />
+          <Route path="/news-detail/:id" component={NewsDetail} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
