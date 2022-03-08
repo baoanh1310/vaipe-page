@@ -9,6 +9,7 @@
   .home_title
     text-align: center
     font-weight: bold
+    font-family: 'Quicksand'
     font-size: 96px
     line-height: 120px
     color: white
@@ -18,47 +19,55 @@
     text-align: center
     font-weight: 500
     font-size: 16px
+    font-family: 'Quicksand'
     line-height: 32px
     color: white
     margin-top: 12px
 
 .home
   display: flex
-  background: linear-gradient(115.27deg, #00A8E3 10.94%, #386AB3 106.01%);
+  background: #ffffff
   min-height: 85vh
   .home_content
     width: 50%
-    padding: 84px 64px
+    padding: 53px 64px
     margin: 24px
+    margin-top: 53px
     background-size: contain
     background-position: bottom left
     background-repeat: no-repeat
     .home_content_title
-      font-size: 28px
-      line-height: 35px
+      font-size: 24px
+      font-family: 'Quicksand'
+      line-height: 32px
       font-weight: normal
-      color: white
+      color: #2CB5C8
       margin-bottom: 28px
     .home_content_line
       width: 72px
       height: 2px
-      background-color: white
-      margin-bottom: 32px
+      background-color: #2CB5C8
+      border-radius: 4px
+      margin-bottom: 16px
     .home_content_description
+      font-weight: 500;
       text-align: justify
-      font-size: 14px
-      line-height: 24px
-      color: white
+      font-size: 13px
+      font-family: 'Quicksand'
+      line-height: 20px
+      color: #666666
       margin-bottom: 40px
     .home_button_explore
-      padding: 5px
-      color: #2A82C4
+      padding: 10px 20px 10px 24px
+      color: #FFFFFF
       font-size: 20px
+      font-family: 'Quicksand'
       line-height: 30px
       text-align: center
       font-weight: bold
-      background-color: white
-      border-radius: 32px
+      background: linear-gradient(101.79deg, #2CB5C8 0%, #63D1DF 100%)
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1)
+      border-radius: 12px
       display: inline-flex
       align-items: center
       text-decoration: none
@@ -68,6 +77,8 @@
       img
         width: auto
   .home_background_wrapper
+    margin: 24px
+    padding: 53px 64px
     display: flex
     justify-content: flex-start
     width: 50%
@@ -77,6 +88,13 @@
       background-repeat: no-repeat
       width: 600px
       height: 600px
+  .home_scroll_to_top_btn
+    position: fixed
+    bottom: 24px
+    right: 24px
+    width: 40px
+    height: 40px
+
 
 @media (max-width: 1199.98px) 
   .home
@@ -87,11 +105,16 @@
       margin: 0
       text-align: center
       padding: 0 20px 32px
+      .home_content_title
+        font-size: 16px
+        margin: auto
+        text-align: left
       .home_content_line
-        margin-left: auto
-        margin-right: auto
+        margin-top: 16px
+        margin-bottom: 16px
+        align: left
       .home_content_description
-        text-align: center
+        text-align: left
     .home_background_wrapper
       width: 100%
       display: flex

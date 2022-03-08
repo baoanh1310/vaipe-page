@@ -2,7 +2,7 @@ import React from "react";
 import "./home.sass";
 import { Link } from "react-router-dom";
 import buttonHome from "../../images/body/home/button.svg";
-import homeImage from "../../images/body/home/home.png";
+import homeImage from "../../images/body/home/home.svg";
 
 const Home = () => {
   return (
@@ -28,17 +28,16 @@ const Home = () => {
           }}
         >
           <div className="home_content_title">
-            <b>Fi-Mi</b>: A <b>F</b>ine-grained A<b>I</b>-based <b>M</b>obile A
-            <b>i</b>r Quality Monitoring and Forecasting System
+            <b>VAIPE</b>: <b>AI</b>-assisted IoT-enabled smart, optimal, and <b>P</b>rotective h<b>E</b>althcare monitoring and supporting system for <b>V</b>ietnamese
           </div>
           <div className="home_content_line"></div>
           <div className="home_content_description">
-            Fi-Mi is a project funded by VinIF, composed of HUST team (SoICT, SEE), Chiba University, 
-            and Wireless System R & D Laboratory, Toshiba. Fi-Mi relies on lightweight air quality monitoring 
-            devices mounted on the buses. On the one hand, by exploiting the buses' dynamic and deep 
-            learning-based prediction techniques, Fi-Mi can broaden the monitoring regions and provide 
-            fine-grained air quality information. On the other hand, by utilizing cost-effective monitoring 
-            devices, Fi-Mi can significantly reduce costs compared to the existing approaches.
+            <p>VAIPE is a project funded by VinIF, composed of VinUni, HUST, University of Massachusetts Boston, and University of Florida. VAIPE is aimed to build a smart healthcare system to assist users in collecting, managing, and analyzing their health-related data. Our system enables users to collect heterogeneous data captured from multiple sources using a convenient smartphone camera, provides visualizations of analytical and predicted results, and includes functions to support users, for example, reminding of medication schedules and warning of early-disease risks. 
+VAIPE is AI-assisted and involves original research and development of several key modules:</p>
+            <p>(1) representation, storage, and processing of multi-source multi-type data,</p>
+            <p>(2) training, learning, and mining on data for clinical insights and disease risk prediction with supporting evidence,</p> 
+            <p>(3) enhancement of user privacy and engagement in sharing their health-related data,</p>
+            <p>(4) optimized resource allocation to reduce deployment cost while guaranteeing QoS constraints.</p> 
           </div>
 
           <Link to="/team" className="home_button_explore">
@@ -51,6 +50,10 @@ const Home = () => {
           <div className="home_background">
             <img src={homeImage} alt="Home" />
           </div>
+        </div>
+
+        <div className="home_scroll_to_top_btn">
+          <img />
         </div>
       </div>
     </>
