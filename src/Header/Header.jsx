@@ -8,12 +8,13 @@ import close from "../images/header/close.svg";
 
 const menu_list = [
   { text: "Home", link: "/" },
-  { text: "Team", link: "/team" },
-  { text: "Fi-Mi Architecture", link: "/architecture" },
   { text: "Objectives", link: "/objective" },
+  { text: "Team", link: "/team" },
   { text: "Publications", link: "/publication" },
-  { text: "News", link: "/news" },
-  { text: "Contact", link: "/contact" }
+  { text: "Resources", link: "/resource" },
+  { text: "Acknowledge", link: "/publication" },
+  { text: "News & Events", link: "/news" },
+  { text: "Contact Us", link: "/contact" }
 ];
 
 const Header = () => {
