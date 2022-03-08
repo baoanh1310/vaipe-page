@@ -3,8 +3,17 @@ import "./home.sass";
 import { Link } from "react-router-dom";
 import buttonHome from "../../images/body/home/button.svg";
 import homeImage from "../../images/body/home/home.svg";
+import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 
 const Home = () => {
+
+  const scrollToTop = () =>{
+    window.scrollTo({
+      top: 0, 
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <>
       <div
@@ -52,9 +61,7 @@ VAIPE is AI-assisted and involves original research and development of several k
           </div>
         </div>
 
-        <div className="home_scroll_to_top_btn">
-          <img />
-        </div>
+        <ScrollToTopBtn />
       </div>
     </>
   );

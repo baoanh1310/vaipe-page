@@ -6,6 +6,7 @@ import japaneseImage from "../../images/body/team/japanese_team.svg";
 import member_list from "./data.js";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
+import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 
 const Team = () => {
   const [show, setShow] = useState({ display: false, name: '', profile: '', email: '' });
@@ -120,6 +121,8 @@ const Team = () => {
           </Button>
         </Modal.Footer>
       </Modal>
+
+      <ScrollToTopBtn />
     </>
   );
 };
