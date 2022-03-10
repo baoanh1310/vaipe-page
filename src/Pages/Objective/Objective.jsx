@@ -1,8 +1,12 @@
 import React from "react";
 import "./objective.sass";
 import objectiveImage from "../../images/body/objective/objective.svg";
+import objective1 from "../../images/body/objective/objective1.svg";
+import objective2 from "../../images/body/objective/objective2.svg";
+import objective3 from "../../images/body/objective/objective3.svg";
+import objectiveArrow from "../../images/body/objective/objective_arrow.svg";
 
-const Objects = () => {
+const Objective = () => {
   return (
     <>
       <div
@@ -16,65 +20,69 @@ const Objects = () => {
       <div
         className="objectives"
         style={{
-          backgroundImage: `url("${require("../../images/body/union_blue.png")}"`
+          backgroundImage: `url("${require("../../images/body/union_white.png")}"`
         }}
       >
-        <div className="objectives_image_wrapper">
-          <div className="objectives_image">
-            <img src={objectiveImage} alt="Vietnamese Team" />
-          </div>
+        <div className="objective_title">
+          <p><b>AI</b>-assisted IoT-enabled smart, optimal, and <b>P</b>rotective h<b>E</b>althcare monitoring and supporting system</p>
         </div>
 
-        <div className="objective_content_wrapper">
-          <div className="objectives_content">
-            <div className="objectives_content_intro">
-              Fi-Mi’s ultimate goal is to provide an efficient system to reduce
-              the consequences of air pollution, hence improve the quality of
-              living. To fulfill this goal the Fi-Mi team have identified the
-              key objectives of the project as follows:
+        <div className="objective_overview">
+          <div className="objective_big_column">
+            <div className="overview_title">
+              <p>Unified data collection interface<br/>
+              AI-based smart healthcare application</p>
             </div>
-            <div className="objectives_content_details">
+            <div className="overview_image">
+              <img src={objective1} />
+            </div>
+            <div className="overview_list_items">
               <ul>
-                <li>
-                  To design a mobile air monitoring platform following a
-                  three-tier architecture that well defines the tiers’ roles and
-                  interplay protocols between the tiers.
-                </li>
-                <li>
-                  To propose optimal algorithms, protocols for the related
-                  optimization problems in each tier, relying on newly
-                  introducing mathematical models for the tiers’ operations.
-                </li>
-                <li>
-                  To design and realize a cost-effective, high-accuracy air
-                  quality monitoring device.
-                </li>
-                <li>
-                  To propose novel deep learning models that accurately predict
-                  air quality in both the spatial (un-monitoring regions) and
-                  temporal (the future) domains.
-                </li>
-                <li>
-                  To construct a publicly available, normalized database of air
-                  quality information that aims to facilitate the related
-                  researches.
-                </li>
-                <li>
-                  To build a publicly available API library for analyzing and
-                  forecasting air quality.
-                </li>
-                <li>To deploy a testbed of the Fi-Mi system in Hanoi.</li>
-                <li>
-                  To provide a Fi-Mi’s user interface (including a smartphone
-                  application and a web portal) that allows people to access the
-                  real-time fine-grained information of air quality in Hanoi.
-                </li>
+                <li>Personalized healthcare profile</li>
+                <li>Healthcare data managing and monitoring</li>
+                <li>Treatment supporting and enhancing</li>
+                <li>Privacy conservation</li>
               </ul>
             </div>
           </div>
+
+          <div className="objective_small_column">
+            <img src={objectiveArrow} />
+          </div>
+
+          <div className="objective_big_column">
+            <div className="overview_title">
+              <p>Vietnamese health database</p>
+            </div>
+            <div className="overview_image">
+              <img src={objective2} />
+            </div>
+            <div className="overview_list_items">
+            </div>
+          </div>
+
+          <div className="objective_small_column">
+            <img src={objectiveArrow} />
+          </div>
+
+          <div className="objective_big_column">
+            <div className="overview_title">
+              <p>AI-assisted healthcare supporting</p>
+            </div>
+            <div className="overview_image">
+              <img src={objective3} />
+            </div>
+            <div className="overview_list_items">
+            </div>
+          </div>
+
+        </div>
+
+        <div className="objective_details">
+          
         </div>
       </div>
     </>
   );
 };
-export default Objects;
+export default Objective;

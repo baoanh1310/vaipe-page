@@ -8,6 +8,7 @@ import close from "../images/header/close.svg";
 
 const menu_list = [
   { text: "Home", link: "/" },
+  { text: "OldObjectives", link: "/oldobjective" },
   { text: "Objectives", link: "/objective" },
   { text: "Team", link: "/team" },
   { text: "Publications", link: "/publication" },
