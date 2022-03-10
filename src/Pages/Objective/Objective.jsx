@@ -8,7 +8,7 @@ const Objects = () => {
       <div
         className="block_title"
         style={{
-          backgroundImage: `url("${require("../../images/header/objective.png")}"`
+          backgroundImage: `url("${require("../../images/header/objective.svg")}"`
         }}
       >
         Objectives
