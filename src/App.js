@@ -5,7 +5,6 @@ import Header from "./Header/Header.jsx";
 import Home from "./Pages/Home/Home.jsx";
 import Team from "./Pages/Team/Team.jsx";
 import Objective from "./Pages/Objective/Objective.jsx";
-import OldObjective from "./Pages/OldObjective/OldObjective.jsx";
 import Publication from "./Pages/Publication/Publication.jsx";
 import News from "./Pages/News/News.jsx";
 import NewsDetail from "./Pages/NewsDetail/NewsDetail.jsx";
@@ -20,7 +19,6 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/team" component={Team} />
-          <Route exact path="/oldobjective" component={OldObjective} />
           <Route exact path="/objective" component={Objective} />
           <Route exact path="/publication" component={Publication} />
           <Route exact path="/news" component={News} />
