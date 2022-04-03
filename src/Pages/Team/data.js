@@ -5,7 +5,7 @@ const member_list = [
         {
           member_name: "Do Phan Thuan",
           personal_link: "https://scholar.google.com/citations?user=7Bpp8U0AAAAJ&hl=en&oi=ao",
-          member_image: require("../../images/body/team/member/Do_Phan_Thuan.jpg"),
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
           modal: {
             title: "Mr. Do Phan Thuan",
             profile: "Lecturer at Hanoi University of Science and Technology, Hanoi, Vietnam",
@@ -16,7 +16,7 @@ const member_list = [
         },
         {
           member_name: "Huynh Thi Thanh Binh",
-          member_image: require("../../images/body/team/member/Huynh_Thi_Thanh_Binh.jpg"),
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
           personal_link: "https://users.soict.hust.edu.vn/binhht/",
           modal: {
             title: "Mrs. Huynh Thi Thanh Binh",
@@ -45,7 +45,7 @@ const member_list = [
       member: [
         {
           member_name: "Nguyen Cam Ly",
-          member_image: require("../../images/body/team/member/Nguyen_Cam_Ly.jpg"),
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
           personal_link: "https://www.researchgate.net/profile/Cam_Ly_Nguyen",
           modal: {
             title: "Mrs. Nguyen Cam Ly",
@@ -57,7 +57,7 @@ const member_list = [
         },
         {
           member_name: "Le Minh Thuy",
-          member_image: require("../../images/body/team/member/Le_Minh_Thuy.jpg"),
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
           personal_link: "https://scholar.google.com/citations?user=ntVxHCwAAAAJ&hl=en&oi=ao",
           modal: {
             title: "Mrs. Le Minh Thuy",
@@ -74,7 +74,7 @@ const member_list = [
       member: [
         {
           member_name: "Nguyen Kien",
-          member_image: require("../../images/body/team/member/Nguyen_Kien.png"),
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
           personal_link: "https://www.s-lab.nd.chiba-u.jp/nguyen/index.html",
           modal: {
             title: "Mr. Nguyen Kien",
@@ -103,7 +103,7 @@ const member_list = [
       member: [
         {
           member_name: "Le Minh Thuy",
-          member_image: require("../../images/body/team/member/Le_Minh_Thuy.jpg"),
+          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
           personal_link: "https://scholar.google.com/citations?user=ntVxHCwAAAAJ&hl=en&oi=ao",
           modal: {
             title: "Mrs. Le Minh Thuy",
