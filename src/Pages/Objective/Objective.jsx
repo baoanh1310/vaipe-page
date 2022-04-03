@@ -6,6 +6,8 @@ import objective2 from "../../images/body/objective/objective2.svg";
 import objective3 from "../../images/body/objective/objective3.svg";
 import objectiveArrow from "../../images/body/objective/objective_arrow.svg";
 
+import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
+
 const Objective = () => {
   return (
     <>
@@ -38,10 +40,10 @@ const Objective = () => {
             </div>
             <div className="overview_list_items">
               <ul>
-                <li>Personalized healthcare profile</li>
+                <li><span className="bold_word">Personalized</span> healthcare profile</li>
                 <li>Healthcare data managing and monitoring</li>
                 <li>Treatment supporting and enhancing</li>
-                <li>Privacy conservation</li>
+                <li><span className="bold_word">Privacy</span> conservation</li>
               </ul>
             </div>
           </div>
@@ -58,6 +60,11 @@ const Objective = () => {
               <img src={objective2} />
             </div>
             <div className="overview_list_items">
+              <ul>
+                <li><span className="bold_word">Vietnamese</span> specified healthcare data</li>
+                <li><span className="bold_word">Multi sources, multi types</span> data</li>
+                <li><span className="bold_word">Realtime</span> and <span>continuous</span> data</li>
+              </ul>
             </div>
           </div>
 
@@ -73,14 +80,28 @@ const Objective = () => {
               <img src={objective3} />
             </div>
             <div className="overview_list_items">
+              <ul>
+                <li>Information extraction </li>
+                <li>Data mining</li>
+                <li>Risk <span className="bold_word">forecasting</span></li>
+                <li>Health information management</li>
+              </ul>
             </div>
           </div>
 
         </div>
 
-        <div className="objective_details">
-          
-        </div>
+        <ul className="objective_details">
+          <li>To design a smart healthcare system consisting of two components, namely a front-end (smartphone app) and a back-end (analytics on server and cloud), well defined of each component’s roles and interplay protocols between them.</li>
+          <li>To define standard data structures for representing heterogeneous data captured from multiple sources and propose efficient methods for storing and processing the data. </li>
+          <li>To propose models for extracting information from raw data and fuse various data to provide clinical insights and disease risk prediction with supporting evidence.7. To construct a publicly available, normalized database of Vietnamese healthcare data for facilitating related research and a publicly available API library for analyzing and forecasting healthcare data.</li>
+          <li>To propose methods based on blockchain technology and federated learning to enhance user privacy and engagement in sharing their health-related data.</li>
+          <li>To propose a resource optimization scheme for minimizing the deployment cost while guaranteeing QoS constraints.</li>
+          <li>To provide a smart health application that allows users to collect and manage their health-related data and assist them in taking care of their health.</li>
+          <li>To construct a publicly available, normalized database of Vietnamese healthcare data for facilitating related research and a publicly available API library for analyzing and forecasting healthcare data.</li>
+        </ul>
+
+        <ScrollToTopBtn />
       </div>
     </>
   );
