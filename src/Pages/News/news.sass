@@ -1,51 +1,55 @@
-.tba
-  text-align: center
-  font-size: 40px
-  min-height: 53vh
-  font-weight: bold
-  margin-top: 50px
-
 .news
-  padding: 40px 46px
+  background-position: bottom left
+  background-repeat: no-repeat
   .news_list
-    display: flex
-    flex-wrap: wrap
-    justify-content: space-between
-    width: 800px
-    margin: 0 auto
+    margin: 24px 113px 0
     .news_list_item
-      width: calc((100% - 30px)/2)
-      margin-bottom: 32px
-      .news_list_item_time
-        font-weight: normal
-        font-size: 13px
-        line-height: 16px
-        color: #AAAAAA
+      display: flex
+      margin-bottom: 24px
       .news_list_item_image
-        margin-bottom: 16px 
-      .news_list_item_title
-        margin-bottom: 12px
-        font-weight: 500
-        font-size: 14px
-        line-height: 20px
-        color: #2A82C4
+        img
+          width: 170px
+          height: 96px
+      .news_list_item_content
+        margin-left: 24px
+        .news_list_item_title
+          margin-bottom: 4px
+          font-weight: 700
+          font-size: 16px
+          line-height: 20px
+          color: #2CB5C8
+        .news_list_item_des
+          margin-bottom: 12px
+          font-weight: 400
+          font-size: 14px
+          line-height: 20px
+          color: #666666
+        .news_list_item_detail
+          display: flex
+          font-weight: 600
+          font-size: 14px
+          line-height: 18px
+          color: #2CB5C8
+          .view_detail
+            text-decoration: underline
+            margin-right: 9.33px
       &:first-child
-        width: 100%
-        border-bottom: 1px solid rgba(27, 15, 15, 0.1)
+        margin-top: 64px
+        border-bottom: 1px solid #DCDCDC
         padding-bottom: 24px
         .news_list_item_image
-          margin-bottom: 16px
+          img
+            width: 558px
+            height: 304px
         .news_list_item_title
           font-size: 20px
           line-height: 25px
           color: #2A82C4
-        a.view_detail
-          font-size: 14px
-          line-height: 20px
-          text-decoration: underline
+      &:last-child
+        border-bottom: 1px solid #DCDCDC
+        padding-bottom: 24px 
   .news_navigation
-    border-top: 1px solid rgba(0, 0, 0, 0.1) 
-    padding-top: 24px
+    padding: 0px 0px 48px 0px
     display: flex
     justify-content: center
     .news_navigation_item

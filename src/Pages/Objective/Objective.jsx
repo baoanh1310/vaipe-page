@@ -91,15 +91,56 @@ const Objective = () => {
 
         </div>
 
-        <ul className="objective_details">
-          <li>To design a smart healthcare system consisting of two components, namely a front-end (smartphone app) and a back-end (analytics on server and cloud), well defined of each component’s roles and interplay protocols between them.</li>
-          <li>To define standard data structures for representing heterogeneous data captured from multiple sources and propose efficient methods for storing and processing the data. </li>
-          <li>To propose models for extracting information from raw data and fuse various data to provide clinical insights and disease risk prediction with supporting evidence.7. To construct a publicly available, normalized database of Vietnamese healthcare data for facilitating related research and a publicly available API library for analyzing and forecasting healthcare data.</li>
-          <li>To propose methods based on blockchain technology and federated learning to enhance user privacy and engagement in sharing their health-related data.</li>
-          <li>To propose a resource optimization scheme for minimizing the deployment cost while guaranteeing QoS constraints.</li>
-          <li>To provide a smart health application that allows users to collect and manage their health-related data and assist them in taking care of their health.</li>
-          <li>To construct a publicly available, normalized database of Vietnamese healthcare data for facilitating related research and a publicly available API library for analyzing and forecasting healthcare data.</li>
-        </ul>
+        <div className="objective_details">
+          <ul>
+            <li>
+              <div className="custom_bullet">
+                <img src={require("../../images/body/objective/custom_bullet_objective.svg")} />
+                To design a smart healthcare system consisting of two components, namely a front-end (smartphone app) and a back-end (analytics on server and cloud), well defined of each component’s roles and interplay protocols between them.
+              </div>
+            </li>
+            <li>
+              <div className="custom_bullet">
+                <img src={require("../../images/body/objective/custom_bullet_objective.svg")} />
+                To define standard data structures for representing heterogeneous data captured from multiple sources and propose efficient methods for storing and processing the data.
+              </div>
+            </li>
+            <li>
+              <div className="custom_bullet">
+                <img src={require("../../images/body/objective/custom_bullet_objective.svg")} />
+                To propose models for extracting information from raw data and fuse various data to provide clinical insights and disease risk prediction with supporting evidence.7. To construct a publicly available, normalized database of Vietnamese healthcare data for facilitating related research and a publicly available API library for analyzing and forecasting healthcare data.
+              </div>
+            </li>
+            <li>
+              <div className="custom_bullet">
+                <img src={require("../../images/body/objective/custom_bullet_objective.svg")} />
+                To propose methods based on blockchain technology and federated learning to enhance user privacy and engagement in sharing their health-related data.
+              </div>
+            </li>
+            <li>
+              <div className="custom_bullet">
+                <img src={require("../../images/body/objective/custom_bullet_objective.svg")} />
+                To propose a resource optimization scheme for minimizing the deployment cost while guaranteeing QoS constraints.
+              </div>
+            </li>
+            <li>
+              <div className="custom_bullet">
+                <img src={require("../../images/body/objective/custom_bullet_objective.svg")} />
+                To provide a smart health application that allows users to collect and manage their health-related data and assist them in taking care of their health.
+              </div>
+            </li>
+            <li>
+              <div className="custom_bullet">
+                <img src={require("../../images/body/objective/custom_bullet_objective.svg")} />
+                To construct a publicly available, normalized database of Vietnamese healthcare data for facilitating related research and a publicly available API library for analyzing and forecasting healthcare data.
+              </div>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
 
         <ScrollToTopBtn />
       </div>
