@@ -7,6 +7,9 @@ import member_list from "./data.js";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
+import studentIcon from "../../images/body/team/student_icon.png";
+import profressorIcon from "../../images/body/team/profressor_icon.png";
+import starIcon from "../../images/body/team/star_icon.png";
 
 const Team = () => {
   const [show, setShow] = useState({ display: false, name: '', profile: '', email: '' });
@@ -18,16 +21,21 @@ const Team = () => {
       <div
         className="block_title"
         style={{
-          backgroundImage: `url("${require("../../images/header/team.png")}"`
+          backgroundImage: `url("${require("../../images/header/team.svg")}"`
         }}
       >
         Our Team
       </div>
       <div className="team">
-        <div className="team_logo">
-          <img src={teamLogo} alt="Team logo" />
+        <div className="team_profressor_bar">
+          <div className="profressor_group">
+            <img className="profressor_icon" src={profressorIcon} />
+            <div className="profressor_label">
+              Profressor
+            </div>
+          </div>
+          <img className="star_icon" src={starIcon} />
         </div>
-
         <div className="team_member">
           {member_list.map((item, index) => (
             <div className="team_member_item">
@@ -38,7 +46,8 @@ const Team = () => {
                   <div className="team_member_item_member">
                     <img src={item_member.member_image} alt="Member" onClick={e => setShow({ display: true, name: item_member.modal.title, profile: item_member.modal.profile, email: item_member.modal.contact.email })} />
                     {/* <div className="member_name">{item_member.member_name}</div> */}
-                    <a href={item_member.personal_link} target="_blank">{item_member.member_name}</a>
+                    <div className="person_name">{item_member.member_name}</div>
+                    <p>{item_member.school}</p>
                   </div>
                 ))}
               </div>
@@ -46,60 +55,18 @@ const Team = () => {
           ))}
         </div>
 
-        <div className="team_details team_vietnam">
-          <div className="team_details_image_wrapper">
-            <div className="team_details_image">
-              <img src={vietnameseImage} alt="Vietnamese Team" />
+        <div className="team_student_bar">
+          <div className="student_group">
+            <img className="student_icon" src={studentIcon} />
+            <div className="student_label">
+              Student
             </div>
           </div>
-          <div className="team_details_description_wrapper">
-            <div className="team_details_description">
-              <div className="team_details_description_title">
-                Vietnamese Team
-              </div>
-              <div className="team_details_description_line"></div>
-              <div className="team_details_description_info">
-                <ul>
-                  <li>
-                    School of Information and Communication Technology, Hanoi
-                    University of Science and Technology
-                  </li>
-                  <li>
-                    School of Electrical Engineering, Hanoi University of
-                    Science and Technology
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="team_details team_japan">
-          <div className="team_details_description_wrapper">
-            <div className="team_details_description">
-              <div className="team_details_description_title">
-                Japanese Team
-              </div>
-              <div className="team_details_description_line"></div>
-              <div className="team_details_description_info">
-                <ul>
-                  <li>Graduate School of Engineering, Chiba University</li>
-                  <li>
-                    Wireless System Laboratory, Toshiba Corporate Research &
-                    Development Center, Toshiba Corporation
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className="team_details_image_wrapper">
-            <div className="team_details_image">
-              <img src={japaneseImage} alt="Japanese Team" />
-            </div>
-          </div>
+          <img className="star_icon" src={starIcon} />
         </div>
       </div>
+
+      
 
       <Modal show={show.display} onHide={handleClose}>
         <Modal.Header closeButton>

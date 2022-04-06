@@ -5,87 +5,102 @@
     margin: 56px 0 96px
     img
       width: auto
+  .team_profressor_bar
+    height: 56px
+    background: linear-gradient(101.79deg, #2CB5C8 0%, #63D1DF 100%)
+    border-radius: 4px
+    padding: 10px 24px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 64px 113px
+    .profressor_group
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      .profressor_icon
+        width: 22px
+        height: 22px
+        margin-right: 10px
+      .profressor_label
+        font-family: 'Quicksand'
+        font-style: normal
+        font-weight: 700
+        font-size: 24px
+        height: 30px
+        line-height: 30px
+        color: #ffffff
+    .star_icon
+      width: 22px
+      height: 22px
   .team_member
-    margin: 112px 200px
+    margin: 40px 113px
     .member_list_title
+      font-family: 'Quicksand'
+      font-style: normal
+      font-weight: 700
       font-size: 28px
-      font-weight: bold
-      color: #2A82C4
+      line-height: 24px
+      color: #2CB5C8
     .member_list_line
-      width: 100px
-      height: 4px
-      background-color: grey
+      width: 176px
+      height: 2px
+      background-color: #2CB5C8
       margin: 32px 0
     .member_list_details
       display: flex
       flex-wrap: wrap
       .team_member_item_member
-        width: 200px
+        width: 267px
         margin: 0 32px 32px 0
-        text-align: center
-        a
+        text-align: left
+        p
+          font-family: 'Quicksand'
+          font-style: normal
+          font-weight: 500
+          font-size: 14px
+          line-height: 22px
+          color: #666666
+          margin-top: 4px
+        .person_name
           font-weight: bold
           // padding: 20px
           font-size: 18px
+          margin-top: 16px
           line-height: 30px
-          color: #2A82C4
+          color: #2CB5C8
         img
           width: 100%
-          filter: grayscale(100%)
           transition: .5s ease
-          border-radius: 20px
-        &:hover img
-          filter: none
-          border-radius: 0
-  .team_details
+          border-radius: 4px
+  .team_student_bar
+    height: 56px
+    background: linear-gradient(101.79deg, #FFB067 0%, #F7D971 100%)
+    border-radius: 4px
+    padding: 10px 24px
     display: flex
-    .team_details_image_wrapper
+    justify-content: space-between
+    align-items: center
+    margin: 64px 113px
+    .student_group
       display: flex
-      justify-content: flex-end
-      width: 50%
-      .team_details_image
-        width: 488px
-        height: 304px
-    .team_details_description_wrapper
-      width: 50%
-      align-items: center
-      display: flex
-      margin-left: 32px
-      .team_details_description
-        width: 488px
-        .team_details_description_title
-          font-weight: bold
-          font-size: 24px
-          line-height: 30px
-          color: #2A82C4
-        .team_details_description_line
-          width: 72px
-          height: 2px
-          background-color: #2A82C4
-          margin: 16px 0
-        .team_details_description_info
-          margin-left: -24px
-          ul 
-            list-style: none
-            li
-              margin-bottom: 8px
-              &:last-child
-                margin-bottom: 0
-            li::before 
-              content: "\2022"
-              color: #2A82C4
-              font-weight: bold
-              display: inline-block
-              width: 1em
-              margin-left: -1em
-
-  .team_japan
-    .team_details_image_wrapper
       justify-content: flex-start
-    .team_details_description_wrapper
-      justify-content: flex-end
-      margin-left: 0
-      margin-right: 32px
+      align-items: center
+      .student_icon
+        width: 22px
+        height: 22px
+        margin-right: 10px
+      .student_label
+        font-family: 'Quicksand'
+        font-style: normal
+        font-weight: 700
+        font-size: 24px
+        height: 30px
+        line-height: 30px
+        color: #ffffff
+    .star_icon
+      width: 22px
+      height: 22px
 
 @media (max-width: 1199.98px) 
   .team

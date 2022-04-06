@@ -1,129 +1,111 @@
 const member_list = [
     {
-      title: "Optimal Deployment",
+      title: "Healthcare Data Mining",
       member: [
         {
-          member_name: "Do Phan Thuan",
-          personal_link: "https://scholar.google.com/citations?user=7Bpp8U0AAAAJ&hl=en&oi=ao",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          modal: {
-            title: "Mr. Do Phan Thuan",
-            profile: "Lecturer at Hanoi University of Science and Technology, Hanoi, Vietnam",
-            contact: {
-                email: "thuandp@soict.hust.edu.vn"
-            }
-          }
+          member_name: "Profressor Minh Do",
+          member_image: require("../../images/body/team/member/Minh_Do.png"),
+          school: 'VinUniversity/University of Illinois at Urbana-Champaign'
         },
         {
-          member_name: "Huynh Thi Thanh Binh",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          personal_link: "https://users.soict.hust.edu.vn/binhht/",
-          modal: {
-            title: "Mrs. Huynh Thi Thanh Binh",
-            profile: "Lecturer at Hanoi University of Science and Technology, Hanoi, Vietnam",
-            contact: {
-                email: "binhht@soict.hust.edu.vn"
-            } 
-          }
-        },
-        {
-          member_name: "Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          personal_link: "https://users.soict.hust.edu.vn/lenp/",
-          modal: {
-            title: "Mrs. Nguyen Phi Le",
-            profile: "Lecturer at Hanoi University of Science and Technology, Hanoi, Vietnam",
-            contact: {
-                email: "lenp@soict.hust.edu.vn"
-            } 
-          }
+          member_name: "Profressor My Thai",
+          member_image: require("../../images/body/team/member/My_Thai.png"),
+          school: 'University of Florida'
         }
       ]
     },
     {
-      title: "Localization",
+      title: "User Privacy And Engagement",
       member: [
         {
-          member_name: "Nguyen Cam Ly",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          personal_link: "https://www.researchgate.net/profile/Cam_Ly_Nguyen",
-          modal: {
-            title: "Mrs. Nguyen Cam Ly",
-            profile: "Working in Research and Development Center, Network System Laboratory at Toshiba Corporation, Tokyo, Japan",
-            contact: {
-                email: "camly268@gmail.com"
-            } 
-          }
+          member_name: "Dr. Pham Huy Hieu",
+          member_image: require("../../images/body/team/member/Hieu_Pham.png"),
+          school: 'VinUni-Illinois Smart Health Center/VinUniversity'
         },
         {
-          member_name: "Le Minh Thuy",
+          member_name: "Profressor Minh Do",
+          member_image: require("../../images/body/team/member/Minh_Do.png"),
+          school: 'VinUniversity/University of Illinois at Urbana-Champaign'
+        },
+        {
+          member_name: "Profressor Duc Tran",
+          member_image: require("../../images/body/team/member/Duc_Tran.png"),
+          school: 'VinUniversity/University of Massachusetts'
+        },
+        {
+          member_name: "Dr. Nguyen Phi Le",
           member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          personal_link: "https://scholar.google.com/citations?user=ntVxHCwAAAAJ&hl=en&oi=ao",
-          modal: {
-            title: "Mrs. Le Minh Thuy",
-            profile: "Lecturer at Hanoi University of Science and Technology, Hanoi, Vietnam",
-            contact: {
-                email: "thuy.leminh@hust.edu.vn"
-            } 
-          }
+          school: 'Hanoi University of Science and Technology'
         }
       ]
     },
     {
-      title: "Opportunistic communication & Air quality forecasting",
+      title: "Visual Recognition Of Medication",
       member: [
         {
-          member_name: "Nguyen Kien",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          personal_link: "https://www.s-lab.nd.chiba-u.jp/nguyen/index.html",
-          modal: {
-            title: "Mr. Nguyen Kien",
-            profile: "Lecturer at Chiba University, Chiba, Japan",
-            contact: {
-                email: "nguyen@chiba-u.jp"
-            } 
-          }
+          member_name: "Dr. Nguyen Thanh Hung",
+          member_image: require("../../images/body/team/member/Nguyen_Thanh_Hung.png"),
+          school: 'Hanoi University of Science and Technology'
         },
         {
-          member_name: "Nguyen Phi Le",
+          member_name: "Dr. Nguyen Phi Le",
           member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          personal_link: "https://users.soict.hust.edu.vn/lenp/",
-          modal: {
-            title: "Mrs. Nguyen Phi Le",
-            profile: "Lecturer at Hanoi University of Science and Technology, Hanoi, Vietnam",
-            contact: {
-                email: "lenp@soict.hust.edu.vn"
-            } 
-          }
+          school: 'Hanoi University of Science and Technology'
+        },
+        {
+          member_name: "Profressor Minh Do",
+          member_image: require("../../images/body/team/member/Minh_Do.png"),
+          school: 'VinUniversity/University of Illinois at Urbana-Champaign'
+        },
+        {
+          member_name: "Dr. Pham Huy Hieu",
+          member_image: require("../../images/body/team/member/Hieu_Pham.png"),
+          school: 'VinUni-Illinois Smart Health Center/VinUniversity'
         }
       ]
     },
     {
-      title: "Data Calibration",
+      title: "Vietnamese OCR",
       member: [
         {
-          member_name: "Le Minh Thuy",
+          member_name: "Dr. Nguyen Phi Le",
           member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          personal_link: "https://scholar.google.com/citations?user=ntVxHCwAAAAJ&hl=en&oi=ao",
-          modal: {
-            title: "Mrs. Le Minh Thuy",
-            profile: "Lecturer at Hanoi University of Science and Technology, Hanoi, Vietnam",
-            contact: {
-                email: "thuy.leminh@hust.edu.vn"
-            } 
-          }
+          school: 'Hanoi University of Science and Technology'
         },
         {
-          member_name: "Nguyen Phi Le",
+          member_name: "Dr. Pham Huy Hieu",
+          member_image: require("../../images/body/team/member/Hieu_Pham.png"),
+          school: 'VinUni-Illinois Smart Health Center/VinUniversity'
+        },
+        {
+          member_name: "Dr. Nguyen Thanh Hung",
+          member_image: require("../../images/body/team/member/Nguyen_Thanh_Hung.png"),
+          school: 'Hanoi University of Science and Technology'
+        },
+        {
+          member_name: "Profressor Minh Do",
+          member_image: require("../../images/body/team/member/Minh_Do.png"),
+          school: 'VinUniversity/University of Illinois at Urbana-Champaign'
+        }
+      ]
+    },
+    {
+      title: 'Elastic Resource Allocation',
+      member: [
+        {
+          member_name: "Profressor Minh Do",
+          member_image: require("../../images/body/team/member/Minh_Do.png"),
+          school: 'VinUniversity/University of Illinois at Urbana-Champaign'
+        },
+        {
+          member_name: "Dr. Nguyen Thanh Hung",
+          member_image: require("../../images/body/team/member/Nguyen_Thanh_Hung.png"),
+          school: 'Hanoi University of Science and Technology'
+        },
+        {
+          member_name: "Dr. Nguyen Phi Le",
           member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          personal_link: "https://users.soict.hust.edu.vn/lenp/",
-          modal: {
-            title: "Mrs. Nguyen Phi Le",
-            profile: "Lecturer at Hanoi University of Science and Technology, Hanoi, Vietnam",
-            contact: {
-                email: "lenp@soict.hust.edu.vn"
-            } 
-          }
+          school: 'Hanoi University of Science and Technology'
         }
       ]
     }
