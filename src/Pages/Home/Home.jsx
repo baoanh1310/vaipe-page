@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.sass";
 import { Link } from "react-router-dom";
-import buttonHome from "../../images/body/home/button.svg";
+import buttonHome from "../../images/body/home/home_btn.svg";
 import homeImage from "../../images/body/home/home.svg";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 
@@ -49,8 +49,7 @@ VAIPE is AI-assisted and involves original research and development of several k
             <p>(4) optimized resource allocation to reduce deployment cost while guaranteeing QoS constraints.</p> 
           </div>
 
-          <Link to="/team" className="home_button_explore">
-            <span>EXPLORE NOW</span>
+          <Link to="/team" className="explore">
             <img src={buttonHome} alt="Button explore" />
           </Link>
         </div>
