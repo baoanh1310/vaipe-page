@@ -1,37 +1,157 @@
 .contact
-  display: flex
-  .contact_team_title
-    font-weight: bold
-    font-size: 20px
-    line-height: 22px
-    color: #2A82C4
-  .contact_wrapper
-    width: 50%
+  padding: 64px 307px
+  .human
     display: flex
-    justify-content: flex-end
-    margin: 56px 88px
+    justify-content: center
     img
-      width: auto
-  .contact_box
-    width: 312px
+      width: 194px
+      height: 194px
+      border-radius: 4px
+      flex: none
+      order: 0
+      flex-grow: 0
+    .humanInfo
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: 534px
+      margin-left: 24px
+      .title
+        color: #2CB5C8
+        font-family: 'Quicksand'
+        font-style: normal
+        font-weight: 700
+        font-size: 24px
+        line-height: 30px
+      .location
+        font-family: 'Quicksand'
+        font-style: normal
+        font-weight: 700
+        font-size: 16px
+        line-height: 24px
+        flex: none
+        order: 1
+        align-self: stretch
+        flex-grow: 0
+  .greet
+    margin-top: 40px
+    display: flex
+    justify-content: center
     p
-      margin: 0 0 8px
-      font-size: 14px
-      line-height: 20px
-      a
-        font-weight: bold
-  .japan_wrapper
-    justify-content: flex-start
+      width: 752px
+      text-align: center
+      font-family: 'Open Sans'
+      font-style: normal
+      font-weight: 400
+      font-size: 16px
+      line-height: 22px
+      color: #666666
+
+  .contactForm
+    margin-top: 24px
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    .row
+      width: 800px
+      margin-top: 24px
+
+    .firstRow
+      display: flex
+      justify-content: space-between
+      .nameInput
+        width: 364px
+      .emailInput
+        width: 364px
+    
+    .titleInput
+    
+    .messageInput
+      
+
+    label
+      font-family: 'Open Sans'
+      font-style: normal
+      font-weight: 400
+      font-size: 16px
+      line-height: 22px
+      height: 22px
+      color: #333333
+      span
+        color: red
+    
+    input, textarea
+      background: #FFFFFF
+      border: 1px solid #DCDCDC
+      box-sizing: border-box
+      border-radius: 4px
+      width: 100%
+      height: 42px
+      padding: 10px
+
+    textarea
+      height: 160px
+
+    .btnGroup
+      display: flex
+      justify-content: center
+      margin-top: 24px
+
+      .btn
+        height: 48px
+        width: 170px
+
+      #sendBtn
+        background: linear-gradient(101.79deg, #2CB5C8 0%, #63D1DF 100%)
+        border-radius: 4px
+        color: #ffffff
+        margin-right: 24px
+        
+      #resetBtn
+        background: #FFFFFF
+        border: 1px solid #DCDCDC
+        box-sizing: border-box
+        border-radius: 4px
 
 @media (max-width: 1199.98px) 
   .contact
+    padding: 40px 20px
     display: block
-    .contact_wrapper
-      text-align: center
-      display: block
-      width: auto
-      margin: 24px 20px 12px
-    .japan_wrapper
-      margin: 24px 20px
-    .contact_box
-      width: auto
+
+    .human
+      display: flex
+      flex-direction: column
+      align-items: center
+      img
+        width: 157px
+        height: 157px
+      .humanInfo
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-top: 24px
+        .location
+          text-align: center
+
+    .contactForm
+      .row
+        width: 100%
+        margin-top: 24px
+
+      .firstRow
+        display: flex
+        flex-direction: column    
+        .nameInput
+          width: 100%
+        .emailInput
+          margin-top: 24px
+          width: 100%
+      
+      input
+        width: 100%
+
+      label
