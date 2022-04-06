@@ -10,6 +10,7 @@ import News from "./Pages/News/News.jsx";
 import NewsDetail from "./Pages/NewsDetail/NewsDetail.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
 import Acknowledge from "./Pages/Acknowledge/Acknowledge";
+import Resource from "./Pages/Resource/Resource";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/objective" component={Objective} />
           <Route exact path="/publication" component={Publication} />
           <Route exact path="/acknowledge" component={Acknowledge} />
+          <Route exact path="/resource" component={Resource} />
           <Route exact path="/news" component={News} />
           <Route exact path="/contact" component={Contact} />
           <Route path="/news-detail/:id" component={NewsDetail} />
