@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./contact.sass";
 import anhHieu from "../../images/body/team/member/Hieu_Pham.png";
+import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 
 const Contact = () => {
 
@@ -86,6 +87,8 @@ const Contact = () => {
           </div>
         </form>
       </div>
+
+      <ScrollToTopBtn />
     </>
   );
 };
