@@ -81,7 +81,7 @@
     margin-top: 53px
     padding: 78px 60px
     display: flex
-    justify-content: flex-start
+    justify-content: center
     width: 50%
     .home_background img
       background-size: contain
@@ -121,4 +121,32 @@
           height: 432px
           order: 1
         
-      
+@media (max-width: 600px) 
+  .home
+    flex-direction: column
+    .home_content
+      width: 100%
+      order: 2
+      margin: 0
+      text-align: center
+      padding: 0 20px 32px
+      .home_content_title
+        font-size: 16px
+        margin: auto
+        text-align: left
+      .home_content_line
+        margin-top: 16px
+        margin-bottom: 16px
+        align: left
+      .home_content_description
+        text-align: left
+    .home_background_wrapper
+      width: 100%
+      display: flex
+      justify-content: center
+      .home_background
+        img
+          padding: 20px 98px
+          width: auto
+          height: 432px
+          order: 1     

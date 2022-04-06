@@ -12,7 +12,7 @@ const menu_list = [
   { text: "Team", link: "/team" },
   { text: "Publications", link: "/publication" },
   { text: "Resources", link: "/resource" },
-  { text: "Acknowledge", link: "/publication" },
+  { text: "Acknowledge", link: "/acknowledge" },
   { text: "News & Events", link: "/news" },
   { text: "Contact Us", link: "/contact" }
 ];
