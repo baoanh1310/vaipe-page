@@ -14,9 +14,9 @@ const News = () => {
       <div 
         className="block_title"
         style={{
-          backgroundImage: `url("${require("../../images/header/news.png")}"`
+          backgroundImage: `url("${require("../../images/header/news_event.png")}"`
         }}
-      >News</div>
+      >News & Events</div>
       <div className="news" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
         <div className="news_list">
         {
