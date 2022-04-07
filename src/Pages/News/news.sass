@@ -44,7 +44,7 @@
         .news_list_item_title
           font-size: 20px
           line-height: 25px
-          color: #2A82C4
+          color: #2CB5C8
       &:last-child
         border-bottom: 1px solid #DCDCDC
         padding-bottom: 24px 
@@ -91,19 +91,64 @@
       transform: rotate(180deg)
       
 @media (max-width: 1199.98px)
-  .tba
-    margin-top: 0
-    margin: 40px
-    font-size: 35px
   .news
-    padding: 70px 20px 20px
+    padding: 40px 20px
+    flex-direction: column
+    align-items: center
     .news_list
-      width: auto
-      display: block
+      width: 100%
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin: auto
       .news_list_item
-        width: auto
-      &:first-child
-        width: auto
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        align-content: center
+        border-bottom: 1px solid #DCDCDC
+        .news_list_item_content
+          margin-left: 0px
+          .news_list_item_title
+            width: 100%
+            font-size: 16px
+            line-height: 24px
+            margin-bottom: 16px
+          .news_list_item_detail
+            margin-bottom: 16px
+        .news_list_item_image
+          width: 100%
+          margin-bottom: 24px
+          display: flex
+          justify-content: center
+          img
+            width: 100%
+            height: 200px
+            border-radius: 4px
+        &:first-child
+          width: 100%
+          display: flex
+          flex-direction: column
+          align-items: center
+          align-content: center
+          border-bottom: 1px solid #DCDCDC
+          margin-top: 0px
+          padding-bottom: 0px
+          .news_list_item_title
+            width: 100%
+            font-size: 16px
+            line-height: 24px
+            margin-bottom: 16px
+          .news_list_item_image
+            width: 100%
+            margin-bottom: 24px
+            display: flex
+            justify-content: center
+            img
+              width: 100%
+              height: 200px
+              border-radius: 4px
       
           
 

@@ -3,6 +3,7 @@ import "./news.sass";
 import { Link } from "react-router-dom";
 import news_list from "./data.js";
 import 'react-slideshow-image/dist/styles.css'
+import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 
 const News = () => {
   useEffect(() => {
@@ -64,6 +65,7 @@ const News = () => {
           </div>
         </div>
       </div>
+      <ScrollToTopBtn />
     </>
   );
 };
