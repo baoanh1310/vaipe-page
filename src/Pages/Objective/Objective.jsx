@@ -1,14 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./objective.sass";
 import objectiveImage from "../../images/body/objective/objective.svg";
 import objective1 from "../../images/body/objective/objective1.svg";
 import objective2 from "../../images/body/objective/objective2.svg";
 import objective3 from "../../images/body/objective/objective3.svg";
 import objectiveArrow from "../../images/body/objective/objective_arrow.svg";
+import objectiveArrowDown from "../../images/body/objective/objective_arrow_down.svg";
 
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height
+  };
+}
+
+function useWindowDimensions() {
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions());
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return windowDimensions;
+}
+
 const Objective = () => {
+  
+  const { height, width } = useWindowDimensions();
+
   return (
     <>
       <div
@@ -49,7 +76,7 @@ const Objective = () => {
           </div>
 
           <div className="objective_small_column">
-            <img src={objectiveArrow} />
+            {width > 900 ? <img src={objectiveArrow} /> : <img src={objectiveArrowDown} /> }
           </div>
 
           <div className="objective_big_column">
@@ -69,7 +96,7 @@ const Objective = () => {
           </div>
 
           <div className="objective_small_column">
-            <img src={objectiveArrow} />
+            {width > 900 ? <img src={objectiveArrow} /> : <img src={objectiveArrowDown} /> }
           </div>
 
           <div className="objective_big_column">
