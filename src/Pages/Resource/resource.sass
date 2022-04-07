@@ -1,1 +1,99 @@
 .resource
+    padding: 64px 210px
+    display: flex
+    flex-direction: column
+    align-items: center
+    .tabGroup
+        display: flex
+        justify-content: space-between
+        width: 560px
+
+    .content
+        width: 100%
+        
+        .labelGroup
+            display: flex
+            align-items: center
+            justify-content: flex-start
+            margin-top: 40px
+            .icon
+                width: 24px
+                height: 24px
+                margin-right: 8px
+            .label
+                font-family: 'Quicksand'
+                font-style: normal
+                font-weight: 500
+                font-size: 24px
+                line-height: 30px
+                color: #2CB5C8
+
+        .textGroup
+            p
+                margin-top: 16px
+                font-family: 'Quicksand'
+                font-style: normal
+                font-weight: 500
+                font-size: 16px
+                line-height: 22px
+                text-align: justify
+                color: #333333
+                flex: none
+                order: 0
+                align-self: stretch
+                flex-grow: 0
+
+                span
+                    color: #2CB5C8
+
+            .imgContainer
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+
+                .contentImg
+                    width: 946px
+                    height: 360px
+                    flex: none
+                    order: 2
+                    flex-grow: 0
+
+                .datasetImg
+                    width: 752px
+                    height: 500px
+
+                .imgDesc
+                    justify-self: center
+                    font-family: 'Quicksand'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 14px
+                    line-height: 22px
+                    text-align: justify
+                    color: #666666
+                    width: 752px
+                    margin-top: 16px
+
+            .subLabel
+                font-family: 'Quicksand'
+                font-style: normal
+                font-weight: 700
+                font-size: 16px
+                line-height: 20px
+                text-align: justify
+                text-decoration-line: underline
+                color: #2CB5C8
+
+@media (max-width: 1199.98px)
+    .resource
+        padding: 40px 20px
+
+        .textGroup
+            .imgContainer
+                .contentImg
+                    width: 90% !important
+                .datasetImg
+                    width: 90% !important
+                .imgDesc
+                    width: 90% !important
