@@ -33,7 +33,7 @@ function useWindowDimensions() {
 }
 
 const Objective = () => {
-  
+
   const { height, width } = useWindowDimensions();
 
   return (
@@ -47,9 +47,9 @@ const Objective = () => {
         Objectives
       </div>
       <div
-        className="objectives"
+        className="objectives objectives2"
         style={{
-          backgroundImage: `url("${require("../../images/body/union_white.png")}"`
+          backgroundImage: `url("${require("../../images/body/pattern.png")}"`
         }}
       >
         <div className="objective_title">

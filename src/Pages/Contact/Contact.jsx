@@ -49,7 +49,7 @@ const Contact = () => {
           backgroundImage: `url("${require("../../images/header/contact_us.png")}"`
         }}
       >Contact Us</div>
-      <div className="contact">
+      <div className="contact" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
         <div className="human">
           <img src={anhHieu} />
           <div className="humanInfo">

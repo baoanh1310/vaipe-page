@@ -16,7 +16,7 @@ const Acknowledge = () => {
             >
                 Acknowledge
             </div>
-            <div className="acknowledge">
+            <div className="acknowledge" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
                 <div className="logos">
                     <div className="row">
                         <img src={logo} id="logo1" className="logo" />

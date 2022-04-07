@@ -48,7 +48,7 @@ const Resource = () => {
             >
                 Resources
             </div>
-            <div className="resource">
+            <div className="resource" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
                 <div className="tabGroup">
                     {types.map(type => (
                         <TabItem
