@@ -23,14 +23,12 @@ const Acknowledge = () => {
                         <img src={logo} id="logo2" className="logo" />
                         <img src={logo} id="logo3" className="logo" />
                         <img src={logo} id="logo4" className="logo" />
-                        <img src={logo} id="logo5" className="logo" />
                     </div>
                     <div className="row">
                         <img src={logo} id="logo6" className="logo" />
                         <img src={logo} id="logo7" className="logo" />
                         <img src={logo} id="logo8" className="logo" />
                         <img src={logo} id="logo9" className="logo" />
-                        <img src={logo} id="logo10" className="logo" />
                     </div>
                 </div>
                 <div className="content">
