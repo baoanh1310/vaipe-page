@@ -1,5 +1,6 @@
 import React from "react";
 import "./publication.sass";
+import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 
 const Publications = () => {
   return (
@@ -45,6 +46,7 @@ const Publications = () => {
           <p>- Yuya Aoki, Takeo Fujii, "Construction of Time-Space Radio Environment Database using HMM for Cooperative Sensing," International Conference on Computing, Networking and Communications (ICNC 2019), Honolulu, USA, Feb. 2019.</p>
         </div>
       </div>
+      <ScrollToTopBtn />
     </>
   );
 };
