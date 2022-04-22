@@ -78,9 +78,9 @@ const Main = () => {
                             <img src={close} alt="close" />
                         </div>
                         {menu_list.map((item, index) => (
-                            <Link to={item.link} className="item">
+                            <a href={item.id} className="item" style={{ cursor: 'pointer'}}>
                                 {item.text}
-                            </Link>
+                            </a>
                         ))}
                     </div>
                     <div className="logo">
