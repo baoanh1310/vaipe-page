@@ -88,6 +88,7 @@ const Main = () => {
                             <img src={logo} alt="" />
                         </Link>
                     </div>
+                    <div className="notDisplay"></div>
                 </div>
             </div>
 
