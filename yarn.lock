@@ -1272,6 +1272,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
+"@fontsource/quicksand@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/quicksand/-/quicksand-4.5.6.tgz#f74a01a5d8e3ea3b6747029486ca44d793244025"
+  integrity sha512-I1qM4g8rZYcZcKR7/6UrL0XBYthWVfW1Ufz69GJs2N3WEyIH41t1QbWL+inOkd9VgkMjH8a3X+7mDwabqXB4IA==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"

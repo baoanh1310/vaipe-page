@@ -1,5 +1,5 @@
 .team
-  background-position: top right
+  background-position: bottom left
   background-repeat: no-repeat
   .team_logo
     text-align: center
@@ -54,7 +54,7 @@
       flex-wrap: wrap
       .team_member_item_member
         width: 267px
-        margin: 0 32px 32px 0
+        margin: 0 32px 24px 0
         text-align: left
         p
           font-family: 'Quicksand'
@@ -65,14 +65,14 @@
           color: #666666
           margin-top: 4px
         .person_name
-          font-weight: bold
+          font-style: normal
+          font-weight: 700
           // padding: 20px
-          font-size: 18px
+          font-size: 20px
           margin-top: 16px
-          line-height: 30px
+          line-height: 25px
           color: #2CB5C8
         img
-          width: 100%
           transition: .5s ease
           border-radius: 4px
   .team_student_bar
@@ -83,7 +83,7 @@
     display: flex
     justify-content: space-between
     align-items: center
-    margin: 64px 113px
+    margin: 32px 113px
     .student_group
       display: flex
       justify-content: flex-start
@@ -103,6 +103,35 @@
     .star_icon
       width: 22px
       height: 22px
+  .student_member
+    margin: 40px 113px
+    .student_list_details
+      display: flex
+      flex-wrap: wrap
+      .student_item_member
+        width: 170px
+        margin: 0 12px 24px 12px
+        text-align: left
+        p
+          font-family: 'Quicksand'
+          font-style: normal
+          font-weight: 500
+          font-size: 14px
+          line-height: 22px
+          color: #666666
+          margin-top: 4px
+        .student_name
+          font-weight: bold
+          // padding: 20px
+          font-size: 16px
+          margin-top: 16px
+          line-height: 20px
+          color: #FFB669
+        img
+          transition: .5s ease
+          border-radius: 4px
+          height: 170px
+
 
 @media (max-width: 1199.98px) 
   .team
@@ -154,6 +183,17 @@
         height: 2px
       .member_list_details
         .team_member_item_member
+          padding: 0px 10px 0 0px
+          margin: 0
+          width: 50%
+          &:nth-child(2)
+            padding: 0px 0px 0px 10px
+          a
+            font-size: 16px
+    .student_member
+      margin: 0
+      .student_list_details
+        .student_item_member
           padding: 0px 10px 0 0px
           margin: 0
           width: 50%

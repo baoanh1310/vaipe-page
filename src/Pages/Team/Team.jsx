@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import "./team.sass";
-import teamLogo from "../../images/body/team/team_logo.svg";
-import vietnameseImage from "../../images/body/team/vietnamese_team.svg";
-import japaneseImage from "../../images/body/team/japanese_team.svg";
-import member_list from "./data.js";
+import { member_list_new, student_list } from "./data.js";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
@@ -37,10 +34,8 @@ const Team = () => {
           <img className="star_icon" src={starIcon} />
         </div>
         <div className="team_member">
-          {member_list.map((item, index) => (
+          {member_list_new.map((item, index) => (
             <div className="team_member_item">
-              <div className="member_list_title">{item.title}</div>
-              <div className="member_list_line"></div>
               <div className="member_list_details">
                 {item.member.map((item_member, index_member) => (
                   <div className="team_member_item_member">
@@ -63,6 +58,21 @@ const Team = () => {
             </div>
           </div>
           <img className="star_icon" src={starIcon} />
+        </div>
+        <div className="student_member">
+          {student_list.map((item, index) => (
+            <div className="student_item">
+              <div className="student_list_details">
+                {item.member.map((item_member, index_member) => (
+                  <div className="student_item_member">
+                    <img src={item_member.member_image} alt="Member" />
+                    {/* <div className="member_name">{item_member.member_name}</div> */}
+                    <div className="student_name">{item_member.member_name}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 
