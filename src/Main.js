@@ -13,7 +13,7 @@ import "./Header/header.sass";
 
 import { Link } from "react-router-dom";
 import logo from "./images/logo.svg";
-import menu from "./images/header/menu.svg";
+import menu from "./images/header/menu_icon.svg";
 import close from "./images/header/close.svg";
 import classNames from "classnames";
 
