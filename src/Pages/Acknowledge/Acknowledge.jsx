@@ -10,7 +10,7 @@ const Acknowledge = () => {
     return (
         <>
             <div
-                className="block_title">
+                className="block_title" style={{backgroundColor: '#E1FBFF'}}>
                 <p>Acknowledge</p>
                 <Underline />
             </div>

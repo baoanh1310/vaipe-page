@@ -40,7 +40,7 @@ const Objective = () => {
   return (
     <>
       <div
-        className="block_title">
+        className="block_title" style={{backgroundColor: '#E1FBFF'}}>
         <p>Objectives</p>
         <Underline />
       </div>
