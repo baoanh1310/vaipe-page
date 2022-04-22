@@ -172,6 +172,10 @@ const student_list = [
         member_image: require("../../images/body/team/student/Nguyen_Thuy_Dung.jpeg")
       },
       {
+        member_name: "Nguyen Thi Ngoc Huyen",
+        member_image: require("../../images/body/team/student/Nguyen_Thi_Ngoc_Huyen.jpg")
+      },
+      {
         member_name: "Nguyen Xuan Anh",
         member_image: require("../../images/body/team/student/Nguyen_Xuan_Anh.jpeg")
       },
@@ -226,10 +230,6 @@ const student_list = [
       {
         member_name: "Chu Manh Hai",
         member_image: require("../../images/body/team/student/Chu_Manh_Hai.jpeg")
-      },
-      {
-        member_name: "Pham Ngoc Bao Anh",
-        member_image: require("../../images/body/team/student/Bao_Anh.jpg")
       }
     ]
   }
