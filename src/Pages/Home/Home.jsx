@@ -49,7 +49,7 @@ VAIPE is AI-assisted and involves original research and development of several k
             <p>(4) optimized resource allocation to reduce deployment cost while guaranteeing QoS constraints.</p> 
           </div>
 
-          <a href="/team" className="explore">
+          <a href="#3" className="explore">
             <img src={buttonHome} alt="Button explore" />
           </a>
         </div>

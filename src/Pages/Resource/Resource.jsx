@@ -27,6 +27,7 @@ const TabItem = styled.div`
     border: 0;
     outline: 0;
     width: 291px;
+    color: #666666;
     ${({ active }) =>
         active &&
         `
