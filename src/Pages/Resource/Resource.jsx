@@ -17,7 +17,8 @@ const TabItem = styled.div`
     order: 0;
     flex-grow: 0;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     padding: 21px 16px;
     transition: .2s ease;
     border-bottom: 2px solid transparent;
@@ -25,12 +26,16 @@ const TabItem = styled.div`
     background: white;
     border: 0;
     outline: 0;
+    width: 291px;
     ${({ active }) =>
         active &&
         `
-        color: #2CB5C8;
-        border-bottom: 2px solid #2CB5C8;
-        opacity: 1;
+        background: #2CB5C8;
+        border-radius: 56px;
+        color: #ffffff;
+        width: 291px;
+        display: flex;
+        justify-content: center;
     `}
 `;
 
@@ -46,7 +51,7 @@ const Resource = () => {
                 <p>Resources</p>
                 <Underline />
             </div>
-            <div className="resource" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
+            <div className="resource">
                 <div className="tabGroup">
                     {types.map(type => (
                         <TabItem

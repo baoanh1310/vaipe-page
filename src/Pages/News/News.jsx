@@ -18,7 +18,7 @@ const News = () => {
           <p>News & Events</p>
           <Underline />
       </div>
-      <div className="news" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
+      <div className="news">
         <div className="news_list">
         {
           news_list.map((item, index) => (

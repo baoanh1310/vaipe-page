@@ -45,11 +45,7 @@ const Objective = () => {
         <Underline />
       </div>
       <div
-        className="objectives objectives2"
-        style={{
-          backgroundImage: `url("${require("../../images/body/pattern.png")}"`
-        }}
-      >
+        className="objectives objectives2">
         <div className="objective_title">
           <p><b>AI</b>-assisted IoT-enabled smart, optimal, and <b>P</b>rotective h<b>E</b>althcare monitoring and supporting system</p>
         </div>

@@ -22,7 +22,7 @@ const Team = () => {
         <p>Our Team</p>
         <Underline />
       </div>
-      <div className="team" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
+      <div className="team">
         <div className="team_profressor_bar">
           <div className="profressor_group">
             <img className="profressor_icon" src={profressorIcon} />
