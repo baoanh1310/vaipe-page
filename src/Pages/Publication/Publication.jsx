@@ -1,16 +1,16 @@
 import React from "react";
 import "./publication.sass";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
+import Underline from "../../Header/Underline";
 
 const Publications = () => {
   return (
     <>
       <div 
-        className="block_title"
-        style={{
-          backgroundImage: `url("${require("../../images/header/publications.png")}"`
-        }}
-      >Publications</div>
+        className="block_title">
+          <p>Publications</p>
+          <Underline />
+      </div>
       {/* <div className="tba">TO BE ANNOUNCED</div> */}
       <div className="publications">
         <div className="publications_journals">

@@ -4,6 +4,7 @@ import Tool from './Tool.jsx';
 import Dataset from './Dataset.jsx';
 import styled from 'styled-components';
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
+import Underline from "../../Header/Underline";
 
 const TabItem = styled.div`
     font-family: 'Quicksand';
@@ -41,12 +42,9 @@ const Resource = () => {
     return (
         <>
             <div
-                className="block_title"
-                style={{
-                    backgroundImage: `url("${require("../../images/header/resources.png")}"`
-                }}
-            >
-                Resources
+                className="block_title">
+                <p>Resources</p>
+                <Underline />
             </div>
             <div className="resource" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
                 <div className="tabGroup">

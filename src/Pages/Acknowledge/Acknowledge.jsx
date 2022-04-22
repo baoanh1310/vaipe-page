@@ -4,17 +4,15 @@ import handshake from "../../images/body/acknowledge/handshake.png";
 import logo from "../../images/body/acknowledge/logo.png";
 
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
+import Underline from "../../Header/Underline";
 
 const Acknowledge = () => {
     return (
         <>
             <div
-                className="block_title"
-                style={{
-                    backgroundImage: `url("${require("../../images/header/acknowledge.png")}"`
-                }}
-            >
-                Acknowledge
+                className="block_title">
+                <p>Acknowledge</p>
+                <Underline />
             </div>
             <div className="acknowledge" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
                 <div className="logos">

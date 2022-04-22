@@ -4,6 +4,7 @@ import { member_list_new, student_list } from "./data.js";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
+import Underline from "../../Header/Underline";
 import studentIcon from "../../images/body/team/student_icon.png";
 import profressorIcon from "../../images/body/team/profressor_icon.png";
 import starIcon from "../../images/body/team/star_icon.png";
@@ -17,11 +18,9 @@ const Team = () => {
     <>
       <div
         className="block_title"
-        style={{
-          backgroundImage: `url("${require("../../images/header/team.svg")}"`
-        }}
       >
-        Our Team
+        <p>Our Team</p>
+        <Underline />
       </div>
       <div className="team" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
         <div className="team_profressor_bar">

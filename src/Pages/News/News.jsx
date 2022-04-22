@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import news_list from "./data.js";
 import 'react-slideshow-image/dist/styles.css'
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
+import Underline from "../../Header/Underline";
 
 const News = () => {
   useEffect(() => {
@@ -13,11 +14,10 @@ const News = () => {
   return (
     <>
       <div 
-        className="block_title"
-        style={{
-          backgroundImage: `url("${require("../../images/header/news_event.png")}"`
-        }}
-      >News & Events</div>
+        className="block_title">
+          <p>News & Events</p>
+          <Underline />
+      </div>
       <div className="news" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
         <div className="news_list">
         {

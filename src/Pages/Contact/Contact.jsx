@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./contact.sass";
-import anhHieu from "../../images/body/team/member/Hieu_Pham.png";
+import anhHieu from "../../images/body/team/member/Hieu_Pham.svg";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
+import Underline from "../../Header/Underline";
 
 const Contact = () => {
 
@@ -44,11 +45,10 @@ const Contact = () => {
   return (
     <>
       <div 
-        className="block_title"
-        style={{
-          backgroundImage: `url("${require("../../images/header/contact_us.png")}"`
-        }}
-      >Contact Us</div>
+        className="block_title">
+          <p>Contact Us</p>
+          <Underline />
+      </div>
       <div className="contact" style={{backgroundImage: `url("${require("../../images/body/pattern.png")}"`}}>
         <div className="human">
           <img src={anhHieu} />

@@ -8,6 +8,7 @@ import objectiveArrow from "../../images/body/objective/objective_arrow.svg";
 import objectiveArrowDown from "../../images/body/objective/objective_arrow_down.svg";
 
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
+import Underline from "../../Header/Underline";
 
 function getWindowDimensions() {
   const { innerWidth: width, innerHeight: height } = window;
@@ -39,12 +40,9 @@ const Objective = () => {
   return (
     <>
       <div
-        className="block_title"
-        style={{
-          backgroundImage: `url("${require("../../images/header/objective.svg")}"`
-        }}
-      >
-        Objectives
+        className="block_title">
+        <p>Objectives</p>
+        <Underline />
       </div>
       <div
         className="objectives objectives2"
