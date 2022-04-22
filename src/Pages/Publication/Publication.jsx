@@ -1,37 +1,28 @@
 import React, { useState } from "react";
-import Modal from 'react-modal';
 import "./publication.sass";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 import Underline from "../../Header/Underline";
 
-Modal.setAppElement('#root')
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
 const Publications = () => {
-  const [modalIsOpen, setIsOpen] = useState(false);
-  function openModal() {
-    setIsOpen(true);
-  }
 
-  function closeModal() {
-    setIsOpen(false);
-  }
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
-  const customStyles = {
-    backgroundColor: "#ffffff",
-    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)",
-    borderRadius: 4,
-    width: 900,
-    border: "1px solid red"
-  }
+  const content = "View Detail >>";
 
   return (
-    <div style={{backgroundColor: '#E1FBFF'}}>
+    <div style={{backgroundColor: '#E1FBFF', paddingBottom: 24}}>
       <div 
         className="block_title" style={{backgroundColor: '#E1FBFF'}}>
           <p>Publications</p>
           <Underline />
       </div>
       {/* <div className="tba">TO BE ANNOUNCED</div> */}
+
       <div className="publications">
         <div className="publications_journals">
           <div className="title">Journal papers</div>
@@ -39,13 +30,15 @@ const Publications = () => {
           <p>- M. López-Benítez, A. Al-Tahmeesschi, D. K. Patel, J. Lehtomäki and K. Umebayashi, "Estimation of Primary Channel Activity Statistics in Cognitive Radio Based on Periodic Spectrum Sensing Observations," in IEEE Transactions on Wireless Communications, vol. 18, no. 2, pp. 983-996, Feb. 2019.</p>
           <p>- Razvan-Andrei Stoica, Giuseppe Thadeu Freitas De Abreu, Takanori Hara, and Koji Ishibashi, "Massively Concurrent Non-Orthogonal Multiple Access for 5G Networks and Beyond," IEEE Access, Volume: 7, pp82080 - 82100, 19 June 2019.</p>
         </div>
-        <ModalBtn onClick={openModal}></ModalBtn>
-        <div className="customModal">
-          <Modal
-            isOpen={modalIsOpen}
-            onRequestClose={closeModal}
-            contentLabel="Publications"
-          >
+      </div>
+
+      <Button className="modalBtn" onClick={handleShow}>{content}</Button>
+
+      <Modal className="pubModal" show={show} onHide={handleClose} size={'xl'} fullScreen={true} scrollable={true}>
+          <Modal.Header closeButton style={{height: 48}}>
+            <Modal.Title><div className="modalTitle">Publications</div></Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
             <div className="publications_modal">
               <div className="publications_journals_modal">
                 <div className="title_modal">Journal papers</div>
@@ -80,40 +73,11 @@ const Publications = () => {
                 <p>- Yuya Aoki, Takeo Fujii, "Construction of Time-Space Radio Environment Database using HMM for Cooperative Sensing," International Conference on Computing, Networking and Communications (ICNC 2019), Honolulu, USA, Feb. 2019.</p>
               </div>
             </div>
-          </Modal>
-        </div>
-      </div>
+          </Modal.Body>
+      </Modal>
       <ScrollToTopBtn />
     </div>
   );
 };
-
-const ModalBtn = ({ onClick }) => {
-  const content = "View Detail >>";
-  return (
-    <button style={{
-      display: "flex",
-      flexDirection: "row",
-      justifyContent: "center",
-      alignItems: "center",
-      width: 218,
-      height: 48,
-      border: '1px solid #2CB5C8',
-      borderRadius: 48,
-      backgroundColor: '#E1FBFF',
-      margin: 'auto',
-      cursor: "pointer",
-      marginTop: 48,
-      color: "#2CB5C8",
-      fontFamily: "Quicksand",
-      fontSize: 16,
-      fontWeight: 500,
-      lineHeight: 20,
-      textDecorationLine: "underline",
-    }} onClick={onClick}>
-      {content}
-    </button>
-  )
-}
 
 export default Publications;
