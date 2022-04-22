@@ -2,19 +2,20 @@ import React, { useState } from "react";
 import classNames from "classnames";
 import "./header.sass";
 import { Link } from "react-router-dom";
+import { scroller } from "react-scroll";
 import logo from "../images/logo.svg";
 import menu from "../images/header/menu.svg";
 import close from "../images/header/close.svg";
 
 const menu_list = [
-  { text: "Home", link: "/" },
-  { text: "Objectives", link: "/objective" },
-  { text: "Team", link: "/team" },
-  { text: "Publications", link: "/publication" },
-  { text: "Resources", link: "/resource" },
-  { text: "Acknowledge", link: "/acknowledge" },
-  { text: "News & Events", link: "/news" },
-  { text: "Contact Us", link: "/contact" }
+  { text: "Home", link: "/", id: "1" },
+  { text: "Objectives", link: "/objective", id: "2" },
+  { text: "Team", link: "/team", id: "3" },
+  { text: "Publications", link: "/publication", id: "4" },
+  { text: "Resources", link: "/resource", id: "5" },
+  { text: "Acknowledge", link: "/acknowledge", id: "6" },
+  { text: "News & Events", link: "/news", id: "7" },
+  { text: "Contact Us", link: "/contact", id: "8" }
 ];
 
 const Header = () => {
@@ -32,6 +33,14 @@ const Header = () => {
     setOpen(false);
   };
 
+  const scrollTo = (name) => {
+    scroller.scrollTo(name, {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
+  }
+
   return (
     <div className="header">
       <div className="navigation">
@@ -41,10 +50,15 @@ const Header = () => {
           </Link>
         </div>
         <div className="menu">
-          {menu_list.map((item, index) => (
-            <Link key={item.link} to={item.link} className="item">
+          {/* {menu_list.map((item, index) => (
+            <Link key={item.link} to={item.id} className="item">
               {item.text}
             </Link>
+          ))} */}
+          {menu_list.map((item, index) => (
+            <div onClick={() => scrollTo(item.id)} className="item" style={{ cursor: 'pointer'}}>
+              {item.text}
+            </div>
           ))}
         </div>
       </div>

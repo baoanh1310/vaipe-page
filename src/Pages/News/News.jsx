@@ -39,7 +39,7 @@ const News = () => {
           ))
         }
         </div>
-        <div className="news_navigation">
+        <div className="news_navigation" style={{ display: "none"}}>
           <div className="news_navigation_left news_navigation_transparent news_navigation_item">
             <img
               src={require("../../images/body/news/right_end.png")}
