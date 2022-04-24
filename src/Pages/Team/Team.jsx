@@ -27,7 +27,7 @@ const Team = () => {
           <div className="profressor_group">
             <img className="profressor_icon" src={profressorIcon} />
             <div className="profressor_label">
-              Profressor
+              Profresor
             </div>
           </div>
           <img className="star_icon" src={starIcon} />
