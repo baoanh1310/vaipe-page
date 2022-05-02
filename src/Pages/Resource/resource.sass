@@ -2,7 +2,7 @@
     background-position: bottom left
     background-repeat: no-repeat
     background-color: #E1FBFF
-    padding: 48px 210px
+    padding: 48px 113px
     display: flex
     flex-direction: column
     align-items: center
@@ -14,26 +14,9 @@
     .content
         width: 100%
         
-        .labelGroup
-            display: flex
-            align-items: center
-            justify-content: flex-start
-            margin-top: 40px
-            .icon
-                width: 24px
-                height: 24px
-                margin-right: 8px
-            .label
-                font-family: 'Quicksand'
-                font-style: normal
-                font-weight: 500
-                font-size: 24px
-                line-height: 30px
-                color: #2CB5C8
-
         .textGroup
             p
-                margin-top: 16px
+                margin-top: 64px
                 font-family: 'Quicksand'
                 font-style: normal
                 font-weight: 500
@@ -48,45 +31,42 @@
 
                 span
                     color: #2CB5C8
+        
+        .colGroup
+            margin-top: 40px
+            width: 100%
+            display: flex
+            justify-content: space-between
 
-            .imgContainer
+            .resourceCol
                 display: flex
                 flex-direction: column
-                justify-content: center
                 align-items: center
+                width: 100%
+                padding: 12px
 
-                .contentImg
-                    width: 946px
-                    height: 360px
-                    flex: none
-                    order: 2
-                    flex-grow: 0
-
-                .datasetImg
-                    width: 752px
-                    height: 500px
-
-                .imgDesc
-                    justify-self: center
+                .colTitle
                     font-family: 'Quicksand'
                     font-style: normal
-                    font-weight: 400
+                    font-weight: 700
+                    font-size: 20px
+                    line-height: 25px
+                    text-align: center
+                    color: #2CB5C8
+                
+                .colImage
+                    margin-top: 20px
+
+                .colDesc
+                    margin-top: 20px
+                    font-family: 'Quicksand'
+                    font-style: normal
+                    font-weight: 500
                     font-size: 14px
                     line-height: 22px
                     text-align: justify
-                    color: #666666
-                    width: 752px
-                    margin-top: 16px
+                    color: #333333
 
-            .subLabel
-                font-family: 'Quicksand'
-                font-style: normal
-                font-weight: 700
-                font-size: 16px
-                line-height: 20px
-                text-align: justify
-                text-decoration-line: underline
-                color: #2CB5C8
 
 @media (max-width: 1199.98px)
     .resource
@@ -102,10 +82,7 @@
                 justify-content: center
 
         .textGroup
-            .imgContainer
-                .contentImg
-                    width: 90% !important
-                .datasetImg
-                    width: 90% !important
-                .imgDesc
-                    width: 90% !important
+
+        .colGroup
+            display: flex
+            flex-direction: column
