@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./team.sass";
-import { member_list_new, student_list } from "./data.js";
+import { member_list_new, student_list_new } from "./data.js";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
@@ -59,7 +59,7 @@ const Team = () => {
           <img className="star_icon" src={starIcon} />
         </div>
         <div className="student_member">
-          {student_list.map((item, index) => (
+          {student_list_new.map((item, index) => (
             <div className="student_item">
               <div className="student_list_details">
                 {item.member.map((item_member, index_member) => (

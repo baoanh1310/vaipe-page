@@ -24,7 +24,7 @@ const menu_list = [
     // { text: "Publications", link: "/publication", id: "#4" },
     { text: "Resources", link: "/resource", id: "#5" },
     { text: "Acknowledge", link: "/acknowledge", id: "#6" },
-    { text: "News & Events", link: "/news", id: "#7" },
+    // { text: "News & Events", link: "/news", id: "#7" },
     { text: "Contact Us", link: "/contact", id: "#8" }
   ];
 
@@ -110,9 +110,9 @@ const Main = () => {
             <div id="6">
                 <Acknowledge />
             </div>
-            <div id="7">
+            {/* <div id="7">
                 <News id="7" />
-            </div>
+            </div> */}
             <div id="8">
                 <Contact id="8" />
             </div>

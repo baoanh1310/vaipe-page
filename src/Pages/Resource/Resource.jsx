@@ -28,11 +28,12 @@ const TabItem = styled.div`
     outline: 0;
     width: 291px;
     color: #666666;
+    border-radius: 56px;
     ${({ active }) =>
         active &&
         `
         background: #2CB5C8;
-        border-radius: 56px;
+        
         color: #ffffff;
         width: 291px;
         display: flex;
@@ -48,7 +49,7 @@ const Resource = () => {
     return (
         <>
             <div
-                className="block_title">
+                className="block_title"  style={{backgroundColor: '#E1FBFF'}}>
                 <p>Resources</p>
                 <Underline />
             </div>
