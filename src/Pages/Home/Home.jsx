@@ -32,9 +32,6 @@ const Home = () => {
       <div className="home">
         <div
           className="home_content"
-          style={{
-            backgroundImage: `url("${require("../../images/body/union_white.png")}"`
-          }}
         >
           <div className="home_content_title">
             <b>VAIPE</b>: <b>AI</b>-assisted IoT-enabled smart, optimal, and <b>P</b>rotective h<b>E</b>althcare monitoring and supporting system for <b>V</b>ietnamese
