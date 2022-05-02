@@ -11,7 +11,7 @@ const menu_list = [
   { text: "Home", link: "/", id: "1" },
   { text: "Objectives", link: "/objective", id: "2" },
   { text: "Team", link: "/team", id: "3" },
-  { text: "Publications", link: "/publication", id: "4" },
+  // { text: "Publications", link: "/publication", id: "4" },
   { text: "Resources", link: "/resource", id: "5" },
   { text: "Acknowledge", link: "/acknowledge", id: "6" },
   { text: "News & Events", link: "/news", id: "7" },

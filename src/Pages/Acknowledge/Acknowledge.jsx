@@ -1,7 +1,13 @@
 import React from "react";
 import "./acknowledge.sass";
 import handshake from "../../images/body/acknowledge/handshake.png";
-import logo from "../../images/body/acknowledge/logo.png";
+import logo_hust from "../../images/body/acknowledge/hust.png";
+import logo_florida from "../../images/body/acknowledge/florida.png";
+import logo_mass from "../../images/body/acknowledge/mass.png";
+import logo_soict from "../../images/body/acknowledge/soict.png";
+import logo_vinbigdata from "../../images/body/acknowledge/vinbigdata.png";
+import logo_vinif from "../../images/body/acknowledge/vinif.png";
+import logo_vinuni from "../../images/body/acknowledge/vinuni.png";
 
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 import Underline from "../../Header/Underline";
@@ -17,16 +23,16 @@ const Acknowledge = () => {
             <div className="acknowledge" >
                 <div className="logos">
                     <div className="row">
-                        <img src={logo} id="logo1" className="logo" />
-                        <img src={logo} id="logo2" className="logo" />
-                        <img src={logo} id="logo3" className="logo" />
-                        <img src={logo} id="logo4" className="logo" />
+                        <img src={logo_hust} id="logo1" className="logo" />
+                        <img src={logo_soict} id="logo2" className="logo" />
+                        <img src={logo_florida} id="logo3" className="logo" />
+                        <img src={logo_mass} id="logo4" className="logo" />
                     </div>
                     <div className="row">
-                        <img src={logo} id="logo6" className="logo" />
-                        <img src={logo} id="logo7" className="logo" />
-                        <img src={logo} id="logo8" className="logo" />
-                        <img src={logo} id="logo9" className="logo" />
+                        <img src={logo_vinbigdata} id="logo6" className="logo" />
+                        <img src={logo_vinuni} id="logo7" className="logo" />
+                        <img src={logo_vinif} id="logo8" className="logo" />
+                        {/* <img src={logo} id="logo9" className="logo" /> */}
                     </div>
                 </div>
                 <div className="content">
