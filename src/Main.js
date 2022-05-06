@@ -113,7 +113,7 @@ const Main = () => {
             {/* <div id="7">
                 <News id="7" />
             </div> */}
-            <div id="8">
+            <div id="8" className="background_cyan">
                 <Contact id="8" />
             </div>
             <ScrollToTopBtn />
