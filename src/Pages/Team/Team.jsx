@@ -34,14 +34,14 @@ const Team = () => {
         </div>
         <div className="team_member">
           {member_list_new.map((item, index) => (
-            <div className="team_member_item">
+            <div key={item.title} className="team_member_item">
               <div className="member_list_details">
                 {item.member.map((item_member, index_member) => (
                   <div className="team_member_item_member">
-                    <img src={item_member.member_image} alt="Member" onClick={e => setShow({ display: true, name: item_member.modal.title, profile: item_member.modal.profile, email: item_member.modal.contact.email })} />
+                    <div className="team_member_avatar" style={{backgroundImage: `url(${item_member.member_image})`}} alt="Member" onClick={e => setShow({ display: true, name: item_member.modal.title, profile: item_member.modal.profile, email: item_member.modal.contact.email })} />
                     {/* <div className="member_name">{item_member.member_name}</div> */}
                     <div className="person_name">{item_member.member_name}</div>
-                    <p>{item_member.school}</p>
+                    <p className="university_name">{item_member.school}</p>
                   </div>
                 ))}
               </div>
@@ -64,7 +64,8 @@ const Team = () => {
               <div className="student_list_details">
                 {item.member.map((item_member, index_member) => (
                   <div className="student_item_member">
-                    <img src={item_member.member_image} alt="Member" />
+                    <div className="student_avatar" style={{backgroundImage: `url(${item_member.member_image})`}} />
+                    {/* <img src={item_member.member_image} alt="Member" /> */}
                     {/* <div className="member_name">{item_member.member_name}</div> */}
                     <div className="student_name">{item_member.member_name}</div>
                   </div>

@@ -6,6 +6,7 @@
   background-color: #E1FBFF
   justify-content: center
   text-align: center
+  padding-top: 48px
 
   .objective_title
     font-family: 'Quicksand'
@@ -14,7 +15,6 @@
     line-height: 25px
     align-items: center
     color: #2CB5C8
-    margin-top: 64px
 
   .objective_overview
     display: flex
@@ -35,6 +35,7 @@
         justify-content: center
         align-items: center
         height: 64px
+        line-height: 22px
       .overview_image
         display: flex
         justify-content: center
@@ -81,28 +82,30 @@
     margin: 64px 113px
     background: linear-gradient(101.79deg, #2CB5C8 0%, #63D1DF 100%)
     border-radius: 4px
-    padding: 48px
+    padding: 60px 95px
     
     ul
-      width: 100%
+      margin: 0
+      padding: 0
+      list-style: None
       .custom_bullet
         display: flex
         img
           width: 10px
           height: 25px
           margin-right: 13px
-      list-style: None
       li
-        top: -10
         text-align: left
         font-family: 'Quicksand'
         font-style: normal
         font-weight: 500
-        font-size: 15px
+        font-size: 14px
         line-height: 22px
         color: #FFFFFF
-        margin-top: 16px
         width: 100%
+        margin-bottom: 16px
+        &:last-child
+          margin-bottom: 0
 
 @media (max-width: 1199.98px) 
   .objectives
@@ -114,16 +117,14 @@
     align-items: center
     
     .objective_title
-      display: flex
-      align-items: center
-      text-align: center
       width: 90%
+      text-align: center
+      padding: 0 20px
     
     .objective_overview
-      display: flex
-      flex-direction: column
-      align-items: center
       width: 100%
+      margin: 0 0 40px
+      padding: 0 20px
       .objective_big_column
         width: 100%
         .overview_title
@@ -140,20 +141,22 @@
           display: flex
           justify-content: center
           align-items: center
-          width: 246px
-          height: 240px
-          // padding: 20px
-          margin-top: 10px
-          margin-bottom: -20px
+          width: 100%
+          height: 164px
+          margin-bottom: 24px
+          img
+            height: 100%
+            width: auto
 
         .overview_list_items
-          padding: 30px
-          display: flex
-          align-items: center
+          padding: 0
+          margin: 0
+          height: auto
           ul
             width: 100%
             list-style-image: url("../../images/body/objective/custom_list_bullet.svg")
             text-align: justify
+            margin: 0
             li
               font-family: 'Quicksand'
               font-style: normal
@@ -176,9 +179,28 @@
           margin-top: 10px
 
     .objective_details
-      width: 100%
       padding: 20px
-      margin-top: 20px
+      margin: 0 20px
 
-      ul
-        padding: 5px
+@media (max-width: 767px)
+  .objectives
+    padding-top: 0
+    .objective_overview
+      flex-direction: column
+      .objective_big_column
+        .overview_image
+          width: 246px
+          height: auto
+          margin: 0 0 24px
+          img
+            width: 100%
+            height: auto
+        .overview_title
+          margin-bottom: 24px
+      .objective_small_column
+        margin: 24px auto
+    .objective_title
+      padding: 0
+      margin: 24px 0
+      p
+        margin: 0

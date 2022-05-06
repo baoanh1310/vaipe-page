@@ -30,20 +30,16 @@ const Acknowledge = () => {
             </div>
             <div className="acknowledge" >
                 <div className="logos">
-                    <div className="row">
-                        <img src={vinbigdata} id="logo1" className="logo" />
-                        <img src={vinif} id="logo2" className="logo" />
-                        <img src={vinuni} id="logo3" className="logo" />
-                        <img src={hust} id="logo4" className="logo" />
-                    </div>
-                    <div className="row">
-                        <img src={soict} id="logo6" className="logo" />
-                        <img src={florida} id="logo7" className="logo" />
-                        <img src={masa} id="logo8" className="logo" />
-                        {/* <img src={logo} id="logo9" className="logo" /> */}
-                    </div>
+                    <img src={vinbigdata} id="logo1" className="logo" />
+                    <img src={vinif} id="logo2" className="logo" />
+                    <img src={vinuni} id="logo3" className="logo" />
+                    <img src={hust} id="logo4" className="logo" />
+                    <img src={soict} id="logo6" className="logo" />
+                    <img src={florida} id="logo7" className="logo" />
+                    <img src={masa} id="logo8" className="logo" />
+                    {/* <img src={logo} id="logo9" className="logo" /> */}
                 </div>
-                <div className="content" style={{display: 'none'}}>
+                <div className="content" style={{ display: 'none' }}>
                     <p>We are so grateful for the support of our corporate partners, who are committed to strengthening families and building stronger, healthier, and safer communities. Together, we are helping to make a positive and lasting difference in the lives of so many we know. Thanks to the help of our sponsors, [our company, initiative, etc.] continues to fulfill our mission of supporting our neighbors when they seek [sustainable energy services, housing, affordable mental health care, high quality senior living programs, substance abuse treatment, etc.].</p>
                     <p>We wish to express our deepest gratitude to [sponsor name] for their steadfast support and generosity. Learn about their [product, service, etc.] by visiting [their website].</p>
                     <p>We are so grateful for the continued support of [corporate sponsor]. Learn about their [services] by visiting [website or address].</p>
@@ -51,10 +47,10 @@ const Acknowledge = () => {
                     <p>We express our continued gratitude to the [team at corporate sponsor], who have generously donated transportation to our [memorial day luncheon, feed the birds senior day, etc.] for the last 17 years and running.</p>
                     <p>We wish to once again express our continued gratitude to [company sponsor] for their dedication to [our cause] and for making a difference in their community by supporting grassroots initiatives.</p>
                 </div>
-                <img src={handshake} style={{display: 'none'}} />
+                <img src={handshake} style={{ display: 'none' }} />
             </div>
 
-            <ScrollToTopBtn />        
+            <ScrollToTopBtn />
         </>
     )
 }

@@ -60,7 +60,7 @@ const Main = () => {
                         </Link>
                     ))} */}
                     {menu_list.map((item, index) => (
-                        <a href={item.id} className="item" style={{ cursor: 'pointer'}}>
+                        <a key={item.id} href={item.id} className="item" style={{ cursor: 'pointer'}}>
                             {item.text}
                         </a>
                     ))}
@@ -78,7 +78,7 @@ const Main = () => {
                             <img src={close} alt="close" />
                         </div>
                         {menu_list.map((item, index) => (
-                            <a href={item.id} className="item" style={{ cursor: 'pointer'}}>
+                            <a key={item.id} href={item.id} className="item" style={{ cursor: 'pointer'}}>
                                 {item.text}
                             </a>
                         ))}

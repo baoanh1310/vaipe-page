@@ -20,14 +20,15 @@
                 font-family: 'Quicksand'
                 font-style: normal
                 font-weight: 500
-                font-size: 16px
+                font-size: 14px
                 line-height: 22px
                 text-align: justify
-                color: #333333
+                color: #666666
                 flex: none
                 order: 0
                 align-self: stretch
                 flex-grow: 0
+                margin-bottom: 0
 
                 span
                     color: #2CB5C8
@@ -37,13 +38,13 @@
             width: 100%
             display: flex
             justify-content: space-between
+            gap: 24px
 
             .resourceCol
                 display: flex
                 flex-direction: column
                 align-items: center
                 width: 100%
-                padding: 12px
 
                 .colTitle
                     font-family: 'Quicksand'
@@ -72,19 +73,45 @@
     // .block_title
         // font-size: 24px
     .resource
-        padding: 40px 20px
+        padding: 32px 20px 64px
 
         .tabGroup
             width: 100%
             justify-content: center
+            gap: 20px
             .tabItem
-                font-size: 14px
-                width: 50%
-                display: flex
+                font-size: 16px
+                line-height: 24px
+                width: 260px
                 justify-content: center
+                height: 48px
+                align-items: center
+                padding: 0
 
-        .textGroup
+        .content
+            .textGroup
+                p
+                    margin-top: 32px
+            .colGroup
+                margin-top: 20px
 
-        .colGroup
-            display: flex
-            flex-direction: column
+@media (max-width: 767px)
+    .resource
+        padding-bottom: 48px
+        padding-top: 0
+        .tabGroup
+            margin-top: 24px
+            .tabItem
+                width: calc(50% - 10px)
+                font-size: 14px
+                line-height: 22px
+        .content
+            .textGroup
+                p
+                    margin-top: 24px
+            .colGroup
+                margin-top: 24px
+                flex-direction: column
+            .colImage
+                img
+                    width: 229px
