@@ -1,0 +1,157 @@
+.news
+  background-position: bottom left
+  background-repeat: no-repeat
+  .news_list
+    margin: 24px 113px 0
+    .news_list_item
+      display: flex
+      margin-bottom: 24px
+      .news_list_item_image
+        img
+          width: 170px
+          height: 96px
+      .news_list_item_content
+        margin-left: 24px
+        .news_list_item_title
+          margin-bottom: 4px
+          font-weight: 700
+          font-size: 16px
+          line-height: 20px
+          color: #2CB5C8
+        .news_list_item_des
+          margin-bottom: 12px
+          font-weight: 400
+          font-size: 14px
+          line-height: 20px
+          color: #666666
+        .news_list_item_detail
+          display: flex
+          font-weight: 600
+          font-size: 14px
+          line-height: 18px
+          color: #2CB5C8
+          .view_detail
+            text-decoration: underline
+            margin-right: 9.33px
+      &:first-child
+        margin-top: 64px
+        border-bottom: 1px solid #DCDCDC
+        padding-bottom: 24px
+        .news_list_item_image
+          img
+            width: 558px
+            height: 304px
+        .news_list_item_title
+          font-size: 20px
+          line-height: 25px
+          color: #2CB5C8
+      &:last-child
+        border-bottom: 1px solid #DCDCDC
+        padding-bottom: 24px 
+  .news_navigation
+    padding: 0px 0px 48px 0px
+    display: flex
+    justify-content: center
+    .news_navigation_item
+      font-size: 14px
+      line-height: 20px
+      font-weight: 500
+      width: 40px
+      height: 40px
+      border-radius: 4px
+      text-align: center
+      margin-right: 8px
+      cursor: pointer
+      color: #666666
+      background-color: white
+      border: 1px solid rgba(127, 150, 179, 0.302994)
+      transition: .2s ease
+      display: flex
+      align-items: center
+      justify-content: center
+      &.active, &:hover
+        color: white
+        background: linear-gradient(138.36deg, #1D48E3 0%, #1DACE3 94.78%)
+      &:last-child
+        margin-right: 0
+        margin-left: -8px
+        padding: 6px 3px
+      &:first-child
+        padding: 6px 3px
+        margin-right: 0
+    .news_navigation_transparent
+      background: transparent
+      color: #327FE9
+      border: 0
+      img
+        width: auto
+      &:hover img
+        filter: brightness(0) invert(1)
+    .news_navigation_left
+      transform: rotate(180deg)
+      
+@media (max-width: 1199.98px)
+  .news
+    padding: 40px 20px
+    flex-direction: column
+    align-items: center
+    .news_list
+      width: 100%
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin: auto
+      .news_list_item
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        align-content: center
+        border-bottom: 1px solid #DCDCDC
+        .news_list_item_content
+          margin-left: 0px
+          .news_list_item_title
+            width: 100%
+            font-size: 16px
+            line-height: 24px
+            margin-bottom: 16px
+          .news_list_item_detail
+            margin-bottom: 16px
+        .news_list_item_image
+          width: 100%
+          margin-bottom: 24px
+          display: flex
+          justify-content: center
+          img
+            width: 100%
+            height: 200px
+            border-radius: 4px
+        &:first-child
+          width: 100%
+          display: flex
+          flex-direction: column
+          align-items: center
+          align-content: center
+          border-bottom: 1px solid #DCDCDC
+          margin-top: 0px
+          padding-bottom: 0px
+          .news_list_item_title
+            width: 100%
+            font-size: 16px
+            line-height: 24px
+            margin-bottom: 16px
+          .news_list_item_image
+            width: 100%
+            margin-bottom: 24px
+            display: flex
+            justify-content: center
+            img
+              width: 100%
+              height: 200px
+              border-radius: 4px
+      
+          
+
+
+        
+        

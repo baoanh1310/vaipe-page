@@ -1,0 +1,40 @@
+.footer
+  display: flex
+  align-item: center
+  justify-content: space-between
+  padding: 16px 113px
+  border-top: 1px solid #e3e3e3
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1)
+
+  background-color: #ffffff
+
+  .copyright
+    display: inline-block
+    font-size: 14px
+    line-height: 20px
+    font-weight: 500
+    color: #666666
+  
+  .social_icon a
+    margin-left: 16px
+
+  .social_icon a img
+    width: 24px
+    height: 24px
+
+@media (max-width: 1199.98px) 
+  .footer
+    flex-direction: column
+    text-align: center
+    .social_icon
+      margin-bottom: 16px
+      order: 1
+    .copyright
+      order: 2
+      margin-bottom: 12px
+
+@media (max-width: 767px)
+  .footer
+    padding: 16px 20px
+    .copyright
+      font-size: 13px

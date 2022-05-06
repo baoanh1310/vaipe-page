@@ -1,0 +1,179 @@
+.contact
+  background-position: bottom left
+  background-repeat: no-repeat
+  background-color: #E1FBFF
+  padding: 0px 307px 64px
+  font-family: 'Quicksand'
+  padding-top: 48px
+  .human
+    display: flex
+    justify-content: center
+    img
+      width: 194px
+      border-radius: 4px
+      flex: none
+      order: 0
+      flex-grow: 0
+    .humanInfo
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: 534px
+      margin-left: 24px
+      .title
+        color: #2CB5C8
+        font-family: 'Quicksand'
+        font-style: normal
+        font-weight: 700
+        font-size: 24px
+        line-height: 30px
+        margin-bottom: 16px
+      .location
+        font-family: 'Quicksand'
+        font-style: normal
+        font-weight: 700
+        font-size: 16px
+        line-height: 24px
+        flex: none
+        order: 1
+        align-self: stretch
+        flex-grow: 0
+        margin-bottom: 0
+        color: #666
+  .greet
+    margin-top: 40px
+    display: flex
+    justify-content: center
+    p
+      width: 752px
+      text-align: center
+      // font-family: 'Open Sans'
+      // font-style: Regular
+      font-weight: 400
+      font-size: 16px
+      line-height: 22px
+      color: #666666
+
+  .contactForm
+    margin-top: 24px
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    .row
+      width: 800px
+      margin-top: 24px
+
+    .firstRow
+      display: flex
+      justify-content: space-between
+      .nameInput
+        width: 364px
+      .emailInput
+        width: 364px
+    
+    .titleInput
+    
+    .messageInput
+      
+
+    label
+      font-family: 'Quicksand'
+      font-style: normal
+      font-weight: 400
+      font-size: 14px
+      line-height: 22px
+      height: 22px
+      color: #333333
+      span
+        color: red
+    
+    input, textarea
+      background: #FFFFFF
+      border: 1px solid #DCDCDC
+      box-sizing: border-box
+      border-radius: 4px
+      width: 100%
+      height: 42px
+      padding: 10px
+      &::placeholder
+        color: #c4c4c4
+
+    textarea
+      height: 160px
+
+    .btnGroup
+      display: flex
+      justify-content: center
+      margin-top: 24px
+
+      .btn
+        height: 48px
+        width: 170px
+
+      #sendBtn
+        background: linear-gradient(101.79deg, #2CB5C8 0%, #63D1DF 100%)
+        border-radius: 4px
+        color: #ffffff
+        margin-right: 24px
+        
+      #resetBtn
+        background: #FFFFFF
+        border: 1px solid #DCDCDC
+        box-sizing: border-box
+        border-radius: 4px
+
+@media (max-width: 1199.98px) 
+  .contact
+    padding: 40px 20px
+    display: block
+
+    .human
+      display: flex
+      align-items: center
+      justify-content: flex-start
+      img
+        width: 157px
+        height: 157px
+      .humanInfo
+        margin-left: 20px
+        .title
+          font-size: 20px
+          line-height: 25px
+        .location
+          font-size: 14px
+          line-height: 22px
+    .greet
+      display: block
+      p
+        font-size: 13px
+        width: 100%
+
+    .contactForm
+      .row
+        width: 100%
+
+      .firstRow
+        display: flex
+        gap: 20px
+        .nameInput
+          width: calc(50% - 10px)
+        .emailInput
+          width: calc(50% - 10px)
+      
+      input
+        width: 100%
+
+      label
+  
+@media (max-width: 767px)
+  .contact
+    .contactForm
+      .btnGroup
+        gap: 20px
+        width: 100%
+        .btn
+          width: calc(50% - 10px)
+          margin: 0 !important

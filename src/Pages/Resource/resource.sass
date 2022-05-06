@@ -1,0 +1,117 @@
+.resource
+    background-position: bottom left
+    background-repeat: no-repeat
+    background-color: #E1FBFF
+    padding: 48px 113px
+    display: flex
+    flex-direction: column
+    align-items: center
+    .tabGroup
+        display: flex
+        justify-content: space-between
+        width: 600px
+
+    .content
+        width: 100%
+        
+        .textGroup
+            p
+                margin-top: 64px
+                font-family: 'Quicksand'
+                font-style: normal
+                font-weight: 500
+                font-size: 14px
+                line-height: 22px
+                text-align: justify
+                color: #666666
+                flex: none
+                order: 0
+                align-self: stretch
+                flex-grow: 0
+                margin-bottom: 0
+
+                span
+                    color: #2CB5C8
+        
+        .colGroup
+            margin-top: 40px
+            width: 100%
+            display: flex
+            justify-content: space-between
+            gap: 24px
+
+            .resourceCol
+                display: flex
+                flex-direction: column
+                align-items: center
+                width: 100%
+
+                .colTitle
+                    font-family: 'Quicksand'
+                    font-style: normal
+                    font-weight: 700
+                    font-size: 20px
+                    line-height: 25px
+                    text-align: center
+                    color: #2CB5C8
+                
+                .colImage
+                    margin-top: 20px
+
+                .colDesc
+                    margin-top: 20px
+                    font-family: 'Quicksand'
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 14px
+                    line-height: 22px
+                    text-align: justify
+                    color: #333333
+
+
+@media (max-width: 1199.98px)
+    // .block_title
+        // font-size: 24px
+    .resource
+        padding: 32px 20px 64px
+
+        .tabGroup
+            width: 100%
+            justify-content: center
+            gap: 20px
+            .tabItem
+                font-size: 16px
+                line-height: 24px
+                width: 260px
+                justify-content: center
+                height: 48px
+                align-items: center
+                padding: 0
+
+        .content
+            .textGroup
+                p
+                    margin-top: 32px
+            .colGroup
+                margin-top: 20px
+
+@media (max-width: 767px)
+    .resource
+        padding-bottom: 48px
+        padding-top: 0
+        .tabGroup
+            margin-top: 24px
+            .tabItem
+                width: calc(50% - 10px)
+                font-size: 14px
+                line-height: 22px
+        .content
+            .textGroup
+                p
+                    margin-top: 24px
+            .colGroup
+                margin-top: 24px
+                flex-direction: column
+            .colImage
+                img
+                    width: 229px

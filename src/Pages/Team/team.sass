@@ -1,0 +1,256 @@
+.team
+  background-position: bottom left
+  background-repeat: no-repeat
+  .team_logo
+    text-align: center
+    display: block
+    margin: 56px 0 96px
+    img
+      width: auto
+  .team_profressor_bar
+    height: 56px
+    background: linear-gradient(101.79deg, #2CB5C8 0%, #63D1DF 100%)
+    border-radius: 4px
+    padding: 10px 24px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 48px 113px 40px
+    .profressor_group
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      .profressor_icon
+        width: 22px
+        height: 22px
+        margin-right: 10px
+      .profressor_label
+        font-family: 'Quicksand'
+        font-style: normal
+        font-weight: 700
+        font-size: 24px
+        height: 30px
+        line-height: 30px
+        color: #ffffff
+    .star_icon
+      width: 22px
+      height: 22px
+  .team_member
+    margin: 40px 113px
+    .member_list_title
+      font-family: 'Quicksand'
+      font-style: normal
+      font-weight: 700
+      font-size: 28px
+      line-height: 24px
+      color: #2CB5C8
+    .member_list_line
+      width: 176px
+      height: 2px
+      background-color: #2CB5C8
+      margin: 32px 0
+    .member_list_details
+      display: flex
+      flex-wrap: wrap
+      box-sizing: border-box
+      gap: 24px
+      width: 100%
+      .team_member_item_member
+        width: 267px
+        text-align: left
+        overflow: hidden
+        .team_member_avatar
+          width: 100%
+          height: 267px
+          border-radius: 4px
+          background-size: cover
+          background-position: center top
+        p
+          font-family: 'Quicksand'
+          font-style: normal
+          font-weight: 500
+          font-size: 14px
+          line-height: 22px
+          color: #666666
+          margin-top: 4px
+        .person_name
+          font-style: normal
+          font-weight: 700
+          // padding: 20px
+          font-size: 20px
+          margin-top: 16px
+          line-height: 25px
+          color: #2CB5C8
+        img
+          transition: .5s ease
+          border-radius: 4px
+          height: 267px
+          width: auto
+  .team_student_bar
+    height: 56px
+    background: linear-gradient(101.79deg, #FFB067 0%, #F7D971 100%)
+    border-radius: 4px
+    padding: 10px 24px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 32px 113px
+    .student_group
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      .student_icon
+        width: 22px
+        height: 22px
+        margin-right: 10px
+      .student_label
+        font-family: 'Quicksand'
+        font-style: normal
+        font-weight: 700
+        font-size: 24px
+        height: 30px
+        line-height: 30px
+        color: #ffffff
+    .star_icon
+      width: 22px
+      height: 22px
+  .student_member
+    margin: 40px 113px
+    .student_list_details
+      display: flex
+      flex-wrap: wrap
+      gap: 24px
+      .student_item_member
+        width: 170px
+        text-align: left
+        overflow: hidden
+        .student_avatar
+          height: 170px
+          width: 100%
+          background-size: cover
+          background-position: center top
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1)
+          border-radius: 4px
+        p
+          font-family: 'Quicksand'
+          font-style: normal
+          font-weight: 500
+          font-size: 16px
+          line-height: 20px
+          color: #666666
+          margin-top: 4px
+        .student_name
+          font-weight: bold
+          // padding: 20px
+          font-size: 14px
+          margin-top: 16px
+          line-height: 20px
+          color: #FFB669
+        img
+          transition: .5s ease
+          border-radius: 4px
+          height: 170px
+          width: auto
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1)
+
+
+@media (max-width: 1199.98px) 
+  .team
+    padding: 20px
+    .team_profressor_bar
+      margin: 12px 0px 24px
+      width: 100%
+      height: 48px
+      .profressor_group .profressor_label
+        font-size: 20px
+    .team_student_bar
+      margin: 32px 0px 24px
+      width: 100%
+      height: 48px
+      .student_group
+        .student_label
+          font-size: 20px
+        .student_icon
+          height: 20px
+          width: auto
+    .team_logo img
+      width: 100%
+      margin-bottom: 36px
+    .team_details
+      display: block
+      .team_details_image_wrapper
+        display: block
+        width: auto
+        margin-bottom: 24px
+        .team_details_image
+          width: 100%
+          height: auto
+      .team_details_description_wrapper
+        width: auto
+        display: block
+        margin-bottom: 24px
+        .team_details_description
+          width: auto
+    
+    .team_vietnam
+      .team_details_description_wrapper
+        margin-left: 0
+
+    .team_japan
+      display: flex
+      flex-direction: column
+      .team_details_image_wrapper
+        order: 1
+        justify-content: unset
+        margin-bottom: 24px
+      .team_details_description_wrapper
+        order: 2
+        justify-content: unset
+        margin-bottom:  24px
+        
+    .team_member
+      margin: 0
+      .member_list_title
+        font-size: 24px
+      .member_list_line
+        height: 2px
+      .member_list_details
+        gap: 24px 20px
+        .team_member_item_member
+          margin: 0
+          width: 167px
+          .team_member_avatar
+            height: 167px
+          a
+            font-size: 16px
+          .person_name
+            font-size: 14px
+            line-height: 18px
+            margin-bottom: 4px
+          .university_name
+            margin: 0
+    .student_member
+      margin: 0
+      .student_list_details
+        gap: 24px 20px
+        .student_item_member
+          padding: 0px
+          margin: 0
+          width: 167px
+          .student_avatar
+            height: 167px
+          a
+            font-size: 16px
+
+@media (max-width: 767px)
+  .team
+    .team_member
+      .member_list_details
+        gap: 24px 20px
+        .team_member_item_member
+          width: calc(50% - 10px)
+    .student_member
+      .student_list_details
+        gap: 24px 20px
+        .student_item_member
+          width: calc(50% - 10px)

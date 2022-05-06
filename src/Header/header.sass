@@ -1,0 +1,104 @@
+.header
+  position: fixed
+  top: 0
+  width: 100%
+  height: 80px
+  padding: 0px 113px
+  background-color: #ffffff
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1)
+  z-index: 999
+.header .mobile_navigation
+  display: none
+
+.header .navigation
+  display: flex
+  align-items: center
+  justify-content: space-between
+  background-color: white
+  padding: 0 80px
+
+  .logo
+    margin-top: 12px
+  .logo a
+    display: inline-block
+    padding: 6px 8px
+    img
+      width: auto
+      height: 48px
+
+  .menu
+    .item
+      color: #666666
+      font-family: 'Quicksand'
+      font-size: 14px
+      line-height: 18px
+      font-weight: 500
+      text-decoration: none
+      display: inline-block
+      justify-content: center
+      align-items: center
+      padding: 8px 16px
+      transition: .2s ease
+      border-bottom: 2px solid transparent
+      &:hover
+        color: #2CB5C8
+        border-bottom-color: #2CB5C8
+      &:focus
+        color: #2CB5C8
+        border-bottom-color: #2CB5C8
+
+@media (max-width: 1199.98px)
+  .header
+    height: 48px
+  .header .navigation
+    display: none
+    
+  .header .mobile_navigation
+    display: block
+    width: 100%
+    height: 100%
+    
+    .logo
+      background-color: #ffffff
+      margin: 0
+      display: flex
+      justify-content: center
+      align-items: center
+      height: 100%
+      img
+        width: auto
+        height: 24px
+    .menu_icon
+      cursor: pointer
+      position: absolute
+      left: 24px
+      top: 50%
+      transform: translateY(-50%)
+      z-index 1
+    .menu_list
+      position: fixed
+      left: 0
+      top: 0
+      z-index 99
+      width: 100vw
+      height: 100vh
+      background-color: white
+      opacity: 0
+      visibility: hidden
+      transition: .2s ease
+      &.active
+        opacity: 1
+        visibility: visible
+      .menu_close
+        display: inline-block
+        padding: 16px 24px
+        cursor: pointer
+      .item
+        display: block
+        font-weight: 500
+        font-size: 20px
+        line-height: 28px
+        text-align: center
+        color: #2CB5C8
+        text-decoration: none
+        padding: 16px

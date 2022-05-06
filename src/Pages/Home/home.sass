@@ -1,0 +1,170 @@
+.home_header
+  height: 624px
+  position: relative
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  background-color: #2A82C4
+  width: 100%
+  margin-top: 80px
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+
+  .mouse_icon
+    width: 24px
+    position: absolute
+    bottom: 40px
+    left: 50%
+    transform: translateX(-50%)
+
+  .home_title
+    text-align: center
+    font-weight: bold
+    font-family: 'Quicksand'
+    font-size: 96px
+    line-height: 120px
+    color: white
+  .home_subtitle
+    text-align: center
+    font-weight: 500
+    font-size: 16px
+    font-family: 'Quicksand'
+    line-height: 32px
+    color: white
+
+.home
+  display: flex
+  background: #ffffff
+  padding: 53px 113px
+
+  .home_content
+    width: 50%
+    background-size: contain
+    background-position: bottom left
+    background-repeat: no-repeat
+    display: flex
+    flex-direction: column
+
+    .explore
+      display: flex
+      align-items: center
+      justify-content: flex-start
+      margin-left: -16px
+      img
+        width: 283px
+        height: 80px
+    .home_content_title
+      font-size: 24px
+      font-family: 'Quicksand'
+      line-height: 32px
+      font-weight: normal
+      color: #2CB5C8
+      margin-bottom: 16px
+    .home_content_line
+      width: 97px
+      height: 2px
+      background-color: #2CB5C8
+      border-radius: 4px
+      margin-bottom: 16px
+    .home_content_description
+      font-weight: 500;
+      text-align: justify
+      font-size: 13px
+      font-family: 'Quicksand'
+      line-height: 20px
+      color: #666666
+      margin-bottom: 24px
+      p
+        margin-bottom: 0px
+    .home_button_explore
+      padding: 10px 20px 10px 24px
+      color: #FFFFFF
+      font-size: 20px
+      font-family: 'Quicksand'
+      line-height: 30px
+      text-align: center
+      font-weight: bold
+      background: linear-gradient(101.79deg, #2CB5C8 0%, #63D1DF 100%)
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1)
+      border-radius: 12px
+      display: inline-flex
+      align-items: center
+      text-decoration: none
+      span
+        margin-left: 27px
+        margin-right: 16px
+      img
+        width: auto
+  .home_background_wrapper
+    display: flex
+    justify-content: center
+    width: 50%
+    .home_background img
+      background-size: contain
+      background-position: center
+      background-repeat: no-repeat
+      width: 430px
+      height: 420px
+
+
+@media (max-width: 1199.98px) 
+  .home
+    flex-direction: column
+    align-items: center
+    padding: 40px 20px
+    .home_content
+      width: 100%
+      order: 2
+      margin: 0
+      text-align: center
+      padding: 0 20px 32px
+      .home_content_title
+        font-size: 16px
+        line-height: 24px
+        margin: 0
+        text-align: left
+      .home_content_line
+        margin-top: 16px
+        margin-bottom: 16px
+        width: 94px
+      .home_content_description
+        text-align: justify
+        margin-bottom: 40px
+      .explore
+        width: 100%
+        display: flex
+        justify-content: center
+
+    .home_background_wrapper
+      width: 100%
+      margin-bottom: 40px
+      display: flex
+      justify-content: center
+      .home_background
+        img
+          width: 315
+          height: 335px
+          order: 1
+  
+  .home_header
+    margin-top: 48px
+    height: 351px
+    .header_wrapper
+      padding: 0 20px
+  
+@media (max-width: 767px)
+  .home
+    .home_content
+      padding: 0
+      .explore
+        display: block
+        margin: 0
+        text-align: center
+        width: auto
+        img
+          height: 64px
+          width: auto
+  .home_header
+    height: 592px

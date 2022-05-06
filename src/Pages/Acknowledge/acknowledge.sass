@@ -1,0 +1,44 @@
+.acknowledge
+    background-position: bottom left
+    background-repeat: no-repeat
+    padding: 48px 180px 64px
+
+    .logos
+        display: flex
+        flex-wrap: wrap
+        gap: 20px
+        .logo
+            width: 267px
+            height: 150px
+    .content
+        width: 100%
+        p
+            margin-bottom: 24px
+            font-family: 'Quicksand'
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+            line-height: 22px
+            text-align: justify
+            color: #666666
+
+    img
+        width: 100%
+        height: 364px
+
+@media (max-width: 1199.98px)
+    .acknowledge
+        padding: 32px 20px 64px
+        .logos
+            .logo
+                width: 167px
+                height: 94px
+
+@media (max-width: 767px)
+    .acknowledge
+        padding-top: 24px
+        padding-bottom: 48px
+        .logos
+            .logo
+                width: calc(50% - 10px)
+                height: 88px
