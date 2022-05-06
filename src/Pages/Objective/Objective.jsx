@@ -5,7 +5,6 @@ import objective1 from "../../images/body/objective/objective1.svg";
 import objective2 from "../../images/body/objective/objective2.svg";
 import objective3 from "../../images/body/objective/objective3.svg";
 import objectiveArrow from "../../images/body/objective/objective_arrow.svg";
-import objectiveArrowDown from "../../images/body/objective/objective_arrow_down.svg";
 
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 import Underline from "../../Header/Underline";
@@ -40,7 +39,7 @@ const Objective = () => {
   return (
     <>
       <div
-        className="block_title" style={{backgroundColor: '#E1FBFF'}}>
+        className="block_title" style={{ backgroundColor: '#E1FBFF' }}>
         <p>Objectives</p>
         <Underline />
       </div>
@@ -53,8 +52,8 @@ const Objective = () => {
         <div className="objective_overview">
           <div className="objective_big_column">
             <div className="overview_title">
-              <p>Unified data collection interface<br/>
-              AI-based smart healthcare application</p>
+              <p>Unified data collection interface<br />
+                AI-based smart healthcare application</p>
             </div>
             <div className="overview_image">
               <img src={objective1} />
@@ -70,7 +69,7 @@ const Objective = () => {
           </div>
 
           <div className="objective_small_column">
-            {width > 900 ? <img src={objectiveArrow} /> : <img src={objectiveArrowDown} /> }
+            <img src={objectiveArrow} alt="arrow" />
           </div>
 
           <div className="objective_big_column">
@@ -78,7 +77,7 @@ const Objective = () => {
               <p>Vietnamese health database</p>
             </div>
             <div className="overview_image">
-              <img src={objective2} />
+              <img src={objective2} alt="arrow" />
             </div>
             <div className="overview_list_items">
               <ul>
@@ -90,7 +89,7 @@ const Objective = () => {
           </div>
 
           <div className="objective_small_column">
-            {width > 900 ? <img src={objectiveArrow} /> : <img src={objectiveArrowDown} /> }
+            <img src={objectiveArrow} alt="arrow" />
           </div>
 
           <div className="objective_big_column">
