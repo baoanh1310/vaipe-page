@@ -1,119 +1,119 @@
 const member_list = [
-    {
-      title: "Healthcare Data Mining",
-      member: [
-        {
-          member_name: "Profressor Minh Do",
-          member_image: require("../../images/body/team/member/Minh_Do.svg"),
-          school: 'VinUniversity/University of Illinois at Urbana-Champaign'
-        },
-        {
-          member_name: "Profressor My Thai",
-          member_image: require("../../images/body/team/member/My_Thai.svg"),
-          school: 'University of Florida'
-        },
-        {
-          member_name: "Profressor Duc Tran",
-          member_image: require("../../images/body/team/member/Duc_Tran.svg"),
-          school: 'VinUniversity/University of Massachusetts'
-        },
-        {
-          member_name: "Dr. Nguyen Thanh Hung",
-          member_image: require("../../images/body/team/member/Thanh_Hung.svg"),
-          school: 'Hanoi University of Science and Technology'
-        },
-        {
-          member_name: "Dr. Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.svg"),
-          school: 'Hanoi University of Science and Technology'
-        },
-        {
-          member_name: "Dr. Pham Huy Hieu",
-          member_image: require("../../images/body/team/member/Hieu_Pham.svg"),
-          school: 'VinUni-Illinois Smart Health Center/VinUniversity'
-        }
-      ]
-    },
-    {
-      title: "User Privacy And Engagement",
-      member: [
-        {
-          member_name: "Dr. Pham Huy Hieu",
-          member_image: require("../../images/body/team/member/Hieu_Pham.png"),
-          school: 'VinUni-Illinois Smart Health Center/VinUniversity'
-        },
-        {
-          member_name: "Profressor Minh Do",
-          member_image: require("../../images/body/team/member/Minh_Do.png"),
-          school: 'VinUniversity/University of Illinois at Urbana-Champaign'
-        },
-        
-        
-      ]
-    },
-    {
-      title: "Visual Recognition Of Medication",
-      member: [
-        
-        {
-          member_name: "Dr. Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          school: 'Hanoi University of Science and Technology'
-        },
-        {
-          member_name: "Profressor Minh Do",
-          member_image: require("../../images/body/team/member/Minh_Do.png"),
-          school: 'VinUniversity/University of Illinois at Urbana-Champaign'
-        },
-        
-      ]
-    },
-    {
-      title: "Vietnamese OCR",
-      member: [
-        {
-          member_name: "Dr. Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          school: 'Hanoi University of Science and Technology'
-        },
-        {
-          member_name: "Dr. Pham Huy Hieu",
-          member_image: require("../../images/body/team/member/Hieu_Pham.png"),
-          school: 'VinUni-Illinois Smart Health Center/VinUniversity'
-        },
-        {
-          member_name: "Dr. Nguyen Thanh Hung",
-          member_image: require("../../images/body/team/member/Nguyen_Thanh_Hung.png"),
-          school: 'Hanoi University of Science and Technology'
-        },
-        {
-          member_name: "Profressor Minh Do",
-          member_image: require("../../images/body/team/member/Minh_Do.png"),
-          school: 'VinUniversity/University of Illinois at Urbana-Champaign'
-        }
-      ]
-    },
-    {
-      title: 'Elastic Resource Allocation',
-      member: [
-        {
-          member_name: "Profressor Minh Do",
-          member_image: require("../../images/body/team/member/Minh_Do.png"),
-          school: 'VinUniversity/University of Illinois at Urbana-Champaign'
-        },
-        {
-          member_name: "Dr. Nguyen Thanh Hung",
-          member_image: require("../../images/body/team/member/Nguyen_Thanh_Hung.png"),
-          school: 'Hanoi University of Science and Technology'
-        },
-        {
-          member_name: "Dr. Nguyen Phi Le",
-          member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
-          school: 'Hanoi University of Science and Technology'
-        }
-      ]
-    }
-  ];
+  {
+    title: "Healthcare Data Mining",
+    member: [
+      {
+        member_name: "Profressor Minh Do",
+        member_image: require("../../images/body/team/member/Minh_Do.svg"),
+        school: 'VinUniversity/University of Illinois at Urbana-Champaign'
+      },
+      {
+        member_name: "Profressor My Thai",
+        member_image: require("../../images/body/team/member/My_Thai.svg"),
+        school: 'University of Florida'
+      },
+      {
+        member_name: "Profressor Duc Tran",
+        member_image: require("../../images/body/team/member/Duc_Tran.svg"),
+        school: 'VinUniversity/University of Massachusetts'
+      },
+      {
+        member_name: "Dr. Nguyen Thanh Hung",
+        member_image: require("../../images/body/team/member/Thanh_Hung.svg"),
+        school: 'Hanoi University of Science and Technology'
+      },
+      {
+        member_name: "Dr. Nguyen Phi Le",
+        member_image: require("../../images/body/team/member/Nguyen_Phi_Le.svg"),
+        school: 'Hanoi University of Science and Technology'
+      },
+      {
+        member_name: "Dr. Pham Huy Hieu",
+        member_image: require("../../images/body/team/member/Hieu_Pham.svg"),
+        school: 'VinUni-Illinois Smart Health Center/VinUniversity'
+      }
+    ]
+  },
+  {
+    title: "User Privacy And Engagement",
+    member: [
+      {
+        member_name: "Dr. Pham Huy Hieu",
+        member_image: require("../../images/body/team/member/Hieu_Pham.png"),
+        school: 'VinUni-Illinois Smart Health Center/VinUniversity'
+      },
+      {
+        member_name: "Profressor Minh Do",
+        member_image: require("../../images/body/team/member/Minh_Do.png"),
+        school: 'VinUniversity/University of Illinois at Urbana-Champaign'
+      },
+
+
+    ]
+  },
+  {
+    title: "Visual Recognition Of Medication",
+    member: [
+
+      {
+        member_name: "Dr. Nguyen Phi Le",
+        member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
+        school: 'Hanoi University of Science and Technology'
+      },
+      {
+        member_name: "Profressor Minh Do",
+        member_image: require("../../images/body/team/member/Minh_Do.png"),
+        school: 'VinUniversity/University of Illinois at Urbana-Champaign'
+      },
+
+    ]
+  },
+  {
+    title: "Vietnamese OCR",
+    member: [
+      {
+        member_name: "Dr. Nguyen Phi Le",
+        member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
+        school: 'Hanoi University of Science and Technology'
+      },
+      {
+        member_name: "Dr. Pham Huy Hieu",
+        member_image: require("../../images/body/team/member/Hieu_Pham.png"),
+        school: 'VinUni-Illinois Smart Health Center/VinUniversity'
+      },
+      {
+        member_name: "Dr. Nguyen Thanh Hung",
+        member_image: require("../../images/body/team/member/Nguyen_Thanh_Hung.png"),
+        school: 'Hanoi University of Science and Technology'
+      },
+      {
+        member_name: "Profressor Minh Do",
+        member_image: require("../../images/body/team/member/Minh_Do.png"),
+        school: 'VinUniversity/University of Illinois at Urbana-Champaign'
+      }
+    ]
+  },
+  {
+    title: 'Elastic Resource Allocation',
+    member: [
+      {
+        member_name: "Profressor Minh Do",
+        member_image: require("../../images/body/team/member/Minh_Do.png"),
+        school: 'VinUniversity/University of Illinois at Urbana-Champaign'
+      },
+      {
+        member_name: "Dr. Nguyen Thanh Hung",
+        member_image: require("../../images/body/team/member/Nguyen_Thanh_Hung.png"),
+        school: 'Hanoi University of Science and Technology'
+      },
+      {
+        member_name: "Dr. Nguyen Phi Le",
+        member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
+        school: 'Hanoi University of Science and Technology'
+      }
+    ]
+  }
+];
 
 const member_list_new = [
   {
@@ -161,7 +161,7 @@ const student_list = [
       },
       {
         member_name: "Nguyen Anh Duy",
-        member_image: require("../../images/body/team/student/Nguyen_Anh_Duy.jpeg")
+        member_image: require("../../images/body/team/student/Nguyen_Anh_Duy.jpg")
       },
       {
         member_name: "Nguyen Trong Tung",
@@ -169,7 +169,7 @@ const student_list = [
       },
       {
         member_name: "Nguyen Thuy Dung",
-        member_image: require("../../images/body/team/student/Nguyen_Thuy_Dung.jpeg")
+        member_image: require("../../images/body/team/student/Nguyen_Thuy_Dung.jpg")
       },
       {
         member_name: "Nguyen Thi Ngoc Huyen",
@@ -177,7 +177,7 @@ const student_list = [
       },
       {
         member_name: "Nguyen Xuan Anh",
-        member_image: require("../../images/body/team/student/Nguyen_Xuan_Anh.jpeg")
+        member_image: require("../../images/body/team/student/Nguyen_Xuan_Anh.jpg")
       },
       {
         member_name: "Nguyen Viet Huy",
@@ -185,7 +185,7 @@ const student_list = [
       },
       {
         member_name: "Nguyen Trung Thanh",
-        member_image: require("../../images/body/team/student/Nguyen_Trung_Thanh.png")
+        member_image: require("../../images/body/team/student/Nguyen_Trung_Thanh.jpg")
       },
       {
         member_name: "Nguyen Duc Long",
@@ -197,11 +197,11 @@ const student_list = [
       },
       {
         member_name: "Pham Quang Ha",
-        member_image: require("../../images/body/team/student/Pham_Quang_Ha.png")
+        member_image: require("../../images/body/team/student/Pham_Quang_Ha.jpg")
       },
       {
         member_name: "Nguyen Anh Duc",
-        member_image: require("../../images/body/team/student/Nguyen_Anh_Duc.PNG")
+        member_image: require("../../images/body/team/student/Nguyen_Anh_Duc.jpg")
       },
       {
         member_name: "Nguyen Manh Hiep",
@@ -209,7 +209,7 @@ const student_list = [
       },
       {
         member_name: "Nguyen Nang Hung",
-        member_image: require("../../images/body/team/student/Nguyen_Nang_Hung.png")
+        member_image: require("../../images/body/team/student/Nguyen_Nang_Hung.jpg")
       },
       {
         member_name: "Vu Minh Hai",
@@ -229,7 +229,7 @@ const student_list = [
       },
       {
         member_name: "Chu Manh Hai",
-        member_image: require("../../images/body/team/student/Chu_Manh_Hai.jpeg")
+        member_image: require("../../images/body/team/student/Chu_Manh_Hai.jpg")
       }
     ]
   }
@@ -244,7 +244,7 @@ const student_list_new = [
       },
       {
         member_name: "Nguyen Anh Duy",
-        member_image: require("../../images/body/team/student_new/Nguyen_Anh_Duy.jpeg")
+        member_image: require("../../images/body/team/student_new/Nguyen_Anh_Duy.jpg")
       },
       {
         member_name: "Nguyen Trong Tung",
@@ -252,7 +252,7 @@ const student_list_new = [
       },
       {
         member_name: "Nguyen Thuy Dung",
-        member_image: require("../../images/body/team/student_new/Nguyen_Thuy_Dung.jpeg")
+        member_image: require("../../images/body/team/student_new/Nguyen_Thuy_Dung.jpg")
       },
       {
         member_name: "Nguyen Thi Ngoc Huyen",
@@ -260,7 +260,7 @@ const student_list_new = [
       },
       {
         member_name: "Nguyen Xuan Anh",
-        member_image: require("../../images/body/team/student_new/Nguyen_Xuan_Anh.jpeg")
+        member_image: require("../../images/body/team/student_new/Nguyen_Xuan_Anh.jpg")
       },
       {
         member_name: "Nguyen Viet Huy",
@@ -268,7 +268,7 @@ const student_list_new = [
       },
       {
         member_name: "Nguyen Trung Thanh",
-        member_image: require("../../images/body/team/student_new/Nguyen_Trung_Thanh.png")
+        member_image: require("../../images/body/team/student_new/Nguyen_Trung_Thanh.jpg")
       },
       {
         member_name: "Nguyen Duc Long",
@@ -280,11 +280,11 @@ const student_list_new = [
       },
       {
         member_name: "Pham Quang Ha",
-        member_image: require("../../images/body/team/student_new/Pham_Quang_Ha.png")
+        member_image: require("../../images/body/team/student_new/Pham_Quang_Ha.jpg")
       },
       {
         member_name: "Nguyen Anh Duc",
-        member_image: require("../../images/body/team/student_new/Nguyen_Anh_Duc.PNG")
+        member_image: require("../../images/body/team/student_new/Nguyen_Anh_Duc.jpg")
       },
       {
         member_name: "Nguyen Manh Hiep",
@@ -292,7 +292,7 @@ const student_list_new = [
       },
       {
         member_name: "Nguyen Nang Hung",
-        member_image: require("../../images/body/team/student_new/Nguyen_Nang_Hung.png")
+        member_image: require("../../images/body/team/student_new/Nguyen_Nang_Hung.jpg")
       },
       {
         member_name: "Vu Minh Hai",
@@ -312,11 +312,11 @@ const student_list_new = [
       },
       {
         member_name: "Chu Manh Hai",
-        member_image: require("../../images/body/team/student_new/Chu_Manh_Hai.jpeg")
+        member_image: require("../../images/body/team/student_new/Chu_Manh_Hai.jpg")
       }
     ]
   }
 ]
-  
+
 module.exports = { member_list_new, student_list, student_list_new };
-  
+
