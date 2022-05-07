@@ -3,17 +3,17 @@ const member_list = [
     title: "Healthcare Data Mining",
     member: [
       {
-        member_name: "Profressor Minh Do",
+        member_name: "Professor Minh Do",
         member_image: require("../../images/body/team/member/Minh_Do.svg"),
         school: 'VinUniversity/University of Illinois at Urbana-Champaign'
       },
       {
-        member_name: "Profressor My Thai",
+        member_name: "Professor My Thai",
         member_image: require("../../images/body/team/member/My_Thai.svg"),
         school: 'University of Florida'
       },
       {
-        member_name: "Profressor Duc Tran",
+        member_name: "Professor Duc Tran",
         member_image: require("../../images/body/team/member/Duc_Tran.svg"),
         school: 'VinUniversity/University of Massachusetts'
       },
@@ -43,7 +43,7 @@ const member_list = [
         school: 'VinUni-Illinois Smart Health Center/VinUniversity'
       },
       {
-        member_name: "Profressor Minh Do",
+        member_name: "Professor Minh Do",
         member_image: require("../../images/body/team/member/Minh_Do.png"),
         school: 'VinUniversity/University of Illinois at Urbana-Champaign'
       },
@@ -61,7 +61,7 @@ const member_list = [
         school: 'Hanoi University of Science and Technology'
       },
       {
-        member_name: "Profressor Minh Do",
+        member_name: "Professor Minh Do",
         member_image: require("../../images/body/team/member/Minh_Do.png"),
         school: 'VinUniversity/University of Illinois at Urbana-Champaign'
       },
@@ -87,7 +87,7 @@ const member_list = [
         school: 'Hanoi University of Science and Technology'
       },
       {
-        member_name: "Profressor Minh Do",
+        member_name: "Professor Minh Do",
         member_image: require("../../images/body/team/member/Minh_Do.png"),
         school: 'VinUniversity/University of Illinois at Urbana-Champaign'
       }
@@ -97,7 +97,7 @@ const member_list = [
     title: 'Elastic Resource Allocation',
     member: [
       {
-        member_name: "Profressor Minh Do",
+        member_name: "Professor Minh Do",
         member_image: require("../../images/body/team/member/Minh_Do.png"),
         school: 'VinUniversity/University of Illinois at Urbana-Champaign'
       },
@@ -119,17 +119,17 @@ const member_list_new = [
   {
     member: [
       {
-        member_name: "Profressor Minh Do",
+        member_name: "Professor Minh Do",
         member_image: require("../../images/body/team/member/Minh_Do.svg"),
         school: 'VinUniversity/University of Illinois at Urbana-Champaign'
       },
       {
-        member_name: "Profressor My Thai",
+        member_name: "Professor My Thai",
         member_image: require("../../images/body/team/member/My_Thai.svg"),
         school: 'University of Florida'
       },
       {
-        member_name: "Profressor Duc Tran",
+        member_name: "Professor Duc Tran",
         member_image: require("../../images/body/team/member/Duc_Tran.svg"),
         school: 'VinUniversity/University of Massachusetts'
       },
@@ -238,6 +238,10 @@ const student_list = [
 const student_list_new = [
   {
     member: [
+      {
+        member_name: "Pham Ngoc Bao Anh",
+        member_image: require("../../images/body/team/student_new/Pham_Ngoc_Bao_Anh.jpg")
+      },
       {
         member_name: "Phan Nhat Huy",
         member_image: require("../../images/body/team/student_new/Phan_Nhat_Huy.jpg")
