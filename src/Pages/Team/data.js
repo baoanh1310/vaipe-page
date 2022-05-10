@@ -276,7 +276,7 @@ const student_list_new = [
       },
       {
         member_name: "Doan Ngoc Khanh",
-        member_image: require("../../images/body/team/student_new/Doan_Ngoc_Khanh.jpg")
+        member_image: require("../../images/body/team/student_new/Doan_Khanh.png")
       },
       {
         member_name: "Pham Quang Ha",
@@ -284,7 +284,7 @@ const student_list_new = [
       },
       {
         member_name: "Nguyen Anh Duc",
-        member_image: require("../../images/body/team/student_new/Nguyen_Anh_Duc.jpg")
+        member_image: require("../../images/body/team/student_new/Nguyen_Anh_Duc.jpeg")
       },
       {
         member_name: "Nguyen Manh Hiep",
