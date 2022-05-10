@@ -239,10 +239,6 @@ const student_list_new = [
   {
     member: [
       {
-        member_name: "Pham Ngoc Bao Anh",
-        member_image: require("../../images/body/team/student_new/Pham_Ngoc_Bao_Anh.jpg")
-      },
-      {
         member_name: "Phan Nhat Huy",
         member_image: require("../../images/body/team/student_new/Phan_Nhat_Huy.jpg")
       },
@@ -317,7 +313,11 @@ const student_list_new = [
       {
         member_name: "Chu Manh Hai",
         member_image: require("../../images/body/team/student_new/Chu_Manh_Hai.jpg")
-      }
+      },
+      {
+        member_name: "Pham Ngoc Bao Anh",
+        member_image: require("../../images/body/team/student_new/Pham_Ngoc_Bao_Anh.jpg")
+      },
     ]
   }
 ]
