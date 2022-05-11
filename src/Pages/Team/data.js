@@ -267,6 +267,10 @@ const student_list_new = [
         member_image: require("../../images/body/team/student_new/Nguyen_Viet_Huy.jpg")
       },
       {
+        member_name: "Nguyen Minh Quan",
+        member_image: require("../../images/body/team/student_new/Nguyen_Minh_Quan.jpg")
+      },
+      {
         member_name: "Nguyen Trung Thanh",
         member_image: require("../../images/body/team/student_new/Nguyen_Trung_Thanh.png")
       },
