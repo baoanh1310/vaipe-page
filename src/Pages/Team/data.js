@@ -291,6 +291,10 @@ const student_list_new = [
         member_image: require("../../images/body/team/student_new/Nguyen_Manh_Hiep.jpg")
       },
       {
+        member_name: "Nguyen Minh Quan",
+        member_image: require("../../images/body/team/student_new/Nguyen_Minh_Quan.jpg")
+      },
+      {
         member_name: "Nguyen Nang Hung",
         member_image: require("../../images/body/team/student_new/Nguyen_Nang_Hung.jpg")
       },
