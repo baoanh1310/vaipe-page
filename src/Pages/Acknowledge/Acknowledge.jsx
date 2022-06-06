@@ -29,6 +29,9 @@ const Acknowledge = () => {
                 <Underline />
             </div>
             <div className="acknowledge" >
+                <div className="ack-content">
+                    <p>This project was supported by <b>Vingroup JSC</b> through <b>Vingroup Innovation Foundation (VINIF)</b>. We would like to acknowledge our clinical partners for providing us access to their image databases and for agreeing to make the dataset publicly available. We are especially thankful to all of our collaborators, including physicians, and technicians, who participated in the data collection and labeling process.</p>
+                </div>
                 <div className="logos">
                     <img src={vinbigdata} id="logo1" className="logo" />
                     <img src={vinif} id="logo2" className="logo" />
@@ -49,9 +52,7 @@ const Acknowledge = () => {
                     <p>We wish to once again express our continued gratitude to [company sponsor] for their dedication to [our cause] and for making a difference in their community by supporting grassroots initiatives.</p>
                 </div>
                 <img src={handshake} style={{ display: 'none' }} />
-                <div className="ack-content">
-                    <p>This project was supported by <b>Vingroup JSC</b> through <b>Vingroup Innovation Foundation (VINIF)</b>. We would like to acknowledge our clinical partners for providing us access to their image databases and for agreeing to make the dataset publicly available. We are especially thankful to all of our collaborators, including physicians, and technicians, who participated in the data collection and labeling process.</p>
-                </div>
+                
             </div>
 
             <ScrollToTopBtn />
