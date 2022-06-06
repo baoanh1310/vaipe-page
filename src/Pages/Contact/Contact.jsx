@@ -59,7 +59,8 @@ const Contact = () => {
         </div>
 
         <div className="greet">
-          <p>We are happy to answer any questions you might have, explore potential partnerships and receive requests from interested affiliates.</p>
+          <p>We are looking for potential business partners to bring this cutting-edge technology to foster innovation in healthcare and better serve our community.</p>
+          <p>We are happy to answer any questions you might have, explore potential partnerships, and receive requests from interested affiliates.</p>
         </div>
 
         <form className="contactForm" onSubmit={handleSubmit}>

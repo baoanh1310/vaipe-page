@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./team.sass";
-import { member_list_new, student_list_new } from "./data.js";
+import { member_list_new, student_list_new, research_assistants, infra_engineers, developers } from "./data.js";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
@@ -53,13 +53,13 @@ const Team = () => {
           <div className="student_group">
             <img className="student_icon" src={studentIcon} />
             <div className="student_label">
-              Student
+              Research Assistants
             </div>
           </div>
           <img className="star_icon" src={starIcon} />
         </div>
         <div className="student_member">
-          {student_list_new.map((item, index) => (
+          {research_assistants.map((item, index) => (
             <div className="student_item">
               <div className="student_list_details">
                 {item.member.map((item_member, index_member) => (
@@ -74,6 +74,59 @@ const Team = () => {
             </div>
           ))}
         </div>
+
+        <div className="team_infra_bar">
+          <div className="student_group">
+            <img className="student_icon" src={studentIcon} />
+            <div className="student_label">
+              Infra Engineers
+            </div>
+          </div>
+          <img className="star_icon" src={starIcon} />
+        </div>
+        <div className="student_member">
+          {infra_engineers.map((item, index) => (
+            <div className="student_item">
+              <div className="student_list_details">
+                {item.member.map((item_member, index_member) => (
+                  <div className="student_item_member">
+                    <div className="student_avatar" style={{backgroundImage: `url(${item_member.member_image})`}} />
+                    {/* <img src={item_member.member_image} alt="Member" /> */}
+                    {/* <div className="member_name">{item_member.member_name}</div> */}
+                    <div className="student_name">{item_member.member_name}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="team_developer_bar">
+          <div className="student_group">
+            <img className="student_icon" src={studentIcon} />
+            <div className="student_label">
+              Web & Application Developers
+            </div>
+          </div>
+          <img className="star_icon" src={starIcon} />
+        </div>
+        <div className="student_member">
+          {developers.map((item, index) => (
+            <div className="student_item">
+              <div className="student_list_details">
+                {item.member.map((item_member, index_member) => (
+                  <div className="student_item_member">
+                    <div className="student_avatar" style={{backgroundImage: `url(${item_member.member_image})`}} />
+                    {/* <img src={item_member.member_image} alt="Member" /> */}
+                    {/* <div className="member_name">{item_member.member_name}</div> */}
+                    <div className="student_name">{item_member.member_name}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+
       </div>
 
       

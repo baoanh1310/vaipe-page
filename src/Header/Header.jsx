@@ -13,7 +13,7 @@ const menu_list = [
   { text: "Team", link: "/team", id: "3" },
   // { text: "Publications", link: "/publication", id: "4" },
   { text: "Resources", link: "/resource", id: "5" },
-  { text: "Acknowledge", link: "/acknowledge", id: "6" },
+  { text: "Acknowledgement", link: "/acknowledge", id: "6" },
   { text: "News & Events", link: "/news", id: "7" },
   { text: "Contact Us", link: "/contact", id: "8" }
 ];
@@ -56,7 +56,7 @@ const Header = () => {
             </Link>
           ))} */}
           {menu_list.map((item, index) => (
-            <div onClick={() => scrollTo(item.id)} className="item" style={{ cursor: 'pointer'}}>
+            <div onClick={() => scrollTo(item.link)} className="item" style={{ cursor: 'pointer'}}>
               {item.text}
             </div>
           ))}

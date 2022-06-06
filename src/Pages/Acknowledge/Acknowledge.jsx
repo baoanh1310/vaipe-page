@@ -25,7 +25,7 @@ const Acknowledge = () => {
         <>
             <div
                 className="block_title">
-                <p>Acknowledge</p>
+                <p>Acknowledgement</p>
                 <Underline />
             </div>
             <div className="acknowledge" >
@@ -36,6 +36,7 @@ const Acknowledge = () => {
                     <img src={hust} id="logo4" className="logo" />
                     <img src={soict} id="logo6" className="logo" />
                     <img src={florida} id="logo7" className="logo" />
+                    <img src={masa} id="logo8" className="logo" />
                     <img src={masa} id="logo8" className="logo" />
                     {/* <img src={logo} id="logo9" className="logo" /> */}
                 </div>
@@ -48,6 +49,9 @@ const Acknowledge = () => {
                     <p>We wish to once again express our continued gratitude to [company sponsor] for their dedication to [our cause] and for making a difference in their community by supporting grassroots initiatives.</p>
                 </div>
                 <img src={handshake} style={{ display: 'none' }} />
+                <div className="ack-content">
+                    <p>This project was supported by <b>Vingroup JSC</b> through <b>Vingroup Innovation Foundation (VINIF)</b>. We would like to acknowledge our clinical partners for providing us access to their image databases and for agreeing to make the dataset publicly available. We are especially thankful to all of our collaborators, including physicians, and technicians, who participated in the data collection and labeling process.</p>
+                </div>
             </div>
 
             <ScrollToTopBtn />

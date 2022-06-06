@@ -18,14 +18,14 @@ import close from "./images/header/close.svg";
 import classNames from "classnames";
 
 const menu_list = [
-    { text: "Home", link: "/", id: "#1" },
-    { text: "Objectives", link: "/objective", id: "#2" },
-    { text: "Team", link: "/team", id: "#3" },
+    { text: "Home", link: "/", id: "#home" },
+    { text: "Objectives", link: "/objective", id: "#objective" },
+    { text: "Team", link: "/team", id: "#team" },
     // { text: "Publications", link: "/publication", id: "#4" },
-    { text: "Resources", link: "/resource", id: "#5" },
-    { text: "Acknowledge", link: "/acknowledge", id: "#6" },
+    { text: "Resources", link: "/resource", id: "#resource" },
+    { text: "Acknowledgement", link: "/acknowledge", id: "#acknowledgement" },
     // { text: "News & Events", link: "/news", id: "#7" },
-    { text: "Contact Us", link: "/contact", id: "#8" }
+    { text: "Contact Us", link: "/contact", id: "#contact" }
   ];
 
 const Main = () => {
@@ -49,16 +49,12 @@ const Main = () => {
             <div className="header">
                 <div className="navigation">
                     <div className="logo">
-                    <Link to="/">
+                    <Link to="#home">
                         <img src={logo} alt="" />
                     </Link>
                     </div>
                     <div className="menu">
-                    {/* {menu_list.map((item, index) => (
-                        <Link key={item.link} to={item.id} className="item">
-                        {item.text}
-                        </Link>
-                    ))} */}
+                    
                     {menu_list.map((item, index) => (
                         <a key={item.id} href={item.id} className="item" style={{ cursor: 'pointer'}}>
                             {item.text}
@@ -92,28 +88,28 @@ const Main = () => {
                 </div>
             </div>
 
-            <div id="1">
+            <div id="home">
                 <Home/>
             </div>
-            <div id="2">
+            <div id="objective">
                 <Objective />
             </div>
-            <div id="3">
+            <div id="team">
                 <Team/>
             </div>
             {/* <div id="4">
                 <Publication />
             </div> */}
-            <div id="5"> 
+            <div id="resource"> 
                 <Resource />
             </div>
-            <div id="6">
+            <div id="acknowledgement">
                 <Acknowledge />
             </div>
             {/* <div id="7">
                 <News id="7" />
             </div> */}
-            <div id="8" className="background_cyan">
+            <div id="contact" className="background_cyan">
                 <Contact id="8" />
             </div>
             <ScrollToTopBtn />
