@@ -49,7 +49,7 @@ const Home = () => {
             <p>(4) Optimizing resource allocation to reduce deployment costs while guaranteeing QoS constraints.</p>
           </div>
 
-          <a href="#3" className="explore">
+          <a href="#team" className="explore">
             <img src={buttonHome} alt="Button explore" />
           </a>
         </div>

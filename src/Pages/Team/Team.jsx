@@ -75,15 +75,7 @@ const Team = () => {
           ))}
         </div>
 
-        <div className="team_infra_bar">
-          <div className="student_group">
-            <img className="student_icon" src={studentIcon} />
-            <div className="student_label">
-              Infra Engineers
-            </div>
-          </div>
-          <img className="star_icon" src={starIcon} />
-        </div>
+        
         <div className="student_member">
           {infra_engineers.map((item, index) => (
             <div className="student_item">
@@ -125,6 +117,16 @@ const Team = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="team_infra_bar">
+          <div className="student_group">
+            <img className="student_icon" src={studentIcon} />
+            <div className="student_label">
+              Infra Engineers
+            </div>
+          </div>
+          <img className="star_icon" src={starIcon} />
         </div>
 
       </div>
