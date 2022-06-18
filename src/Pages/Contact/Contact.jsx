@@ -54,7 +54,7 @@ const Contact = () => {
           <img src={anhHieu} />
           <div className="humanInfo">
             <p className="title">Dr. Pham Huy Hieu</p>
-            <p className="location">College of Engineering & Computer Science, VinUni-Illinois Smart Health Center, VinUniversity</p>
+            <p className="location">College of Engineering & Computer Science, VinUni-Illinois<br/>Smart Health Center, VinUniversity</p>
           </div>
         </div>
 

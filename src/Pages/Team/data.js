@@ -330,12 +330,20 @@ const research_assistants = [
   {
     member: [
       {
-        member_name: "Phan Nhat Huy",
-        member_image: require("../../images/body/team/student_new/Phan_Nhat_Huy.jpg")
-      },
-      {
         member_name: "Nguyen Anh Duy",
         member_image: require("../../images/body/team/student_new/Nguyen_Anh_Duy.jpg")
+      },
+      {
+        member_name: "Nguyen Minh Quan",
+        member_image: require("../../images/body/team/student_new/Nguyen_Minh_Quan.jpg")
+      },
+      {
+        member_name: "Nguyen Trung Thanh",
+        member_image: require("../../images/body/team/student_new/Nguyen_Trung_Thanh.jpg")
+      },
+      {
+        member_name: "Nguyen Nang Hung",
+        member_image: require("../../images/body/team/student_new/Nguyen_Nang_Hung.jpg")
       },
       {
         member_name: "Nguyen Trong Tung",
@@ -346,36 +354,28 @@ const research_assistants = [
         member_image: require("../../images/body/team/student_new/Nguyen_Thuy_Dung.jpg")
       },
       {
-        member_name: "Nguyen Thi Ngoc Huyen",
-        member_image: require("../../images/body/team/student_new/Nguyen_Thi_Ngoc_Huyen.jpg")
-      },
-      {
-        member_name: "Nguyen Nang Hung",
-        member_image: require("../../images/body/team/student_new/Nguyen_Nang_Hung.jpg")
-      },
-      {
-        member_name: "Nguyen Trung Thanh",
-        member_image: require("../../images/body/team/student_new/Nguyen_Trung_Thanh.jpg")
+        member_name: "Phan Nhat Huy",
+        member_image: require("../../images/body/team/student_new/Phan_Nhat_Huy.jpg")
       },
       {
         member_name: "Nguyen Duc Long",
         member_image: require("../../images/body/team/student_new/Nguyen_Duc_Long.jpg")
       },
       {
-        member_name: "Doan Ngoc Khanh",
-        member_image: require("../../images/body/team/student_new/Doan_Khanh.png")
+        member_name: "Nguyen Thi Ngoc Huyen",
+        member_image: require("../../images/body/team/student_new/Nguyen_Thi_Ngoc_Huyen.jpg")
       },
       {
-        member_name: "Vu Minh Hai",
-        member_image: require("../../images/body/team/student_new/Vu_Minh_Hai.jpg")
+        member_name: "Doan Ngoc Khanh",
+        member_image: require("../../images/body/team/student_new/Doan_Khanh.png")
       },
       {
         member_name: "Nguyen Manh Hiep",
         member_image: require("../../images/body/team/student_new/Nguyen_Manh_Hiep.jpg")
       },
       {
-        member_name: "Nguyen Minh Quan",
-        member_image: require("../../images/body/team/student_new/Nguyen_Minh_Quan.jpg")
+        member_name: "Vu Minh Hai",
+        member_image: require("../../images/body/team/student_new/Vu_Minh_Hai.jpg")
       },
       {
         member_name: "Nguyen Xuan Anh",
@@ -393,6 +393,18 @@ const developers = [
   {
     member: [
       {
+        member_name: "Chu Manh Hai",
+        member_image: require("../../images/body/team/student_new/Chu_Manh_Hai.jpg")
+      },
+      {
+        member_name: "Pham Ngoc Bao Anh",
+        member_image: require("../../images/body/team/student_new/Pham_Ngoc_Bao_Anh.jpg")
+      },
+      {
+        member_name: "Le Xuan An",
+        member_image: require("../../images/body/team/student_new/Le_Xuan_An.jpg")
+      },
+      {
         member_name: "Nguyen Viet Huy",
         member_image: require("../../images/body/team/student_new/Nguyen_Viet_Huy.jpg")
       },
@@ -405,25 +417,13 @@ const developers = [
         member_image: require("../../images/body/team/student_new/Nguyen_Anh_Duc.jpeg")
       },
       {
-        member_name: "Le Xuan An",
-        member_image: require("../../images/body/team/student_new/Le_Xuan_An.jpg")
-      },
-      {
         member_name: "Nguyen Duc Dat",
         member_image: require("../../images/body/team/student_new/Nguyen-Duc-Dat.jpg")
       },
       {
         member_name: "Nguyen Dong Duc Anh",
         member_image: require("../../images/body/team/student_new/Nguyen_Dong_Duc_Anh.jpg")
-      },
-      {
-        member_name: "Chu Manh Hai",
-        member_image: require("../../images/body/team/student_new/Chu_Manh_Hai.jpg")
-      },
-      {
-        member_name: "Pham Ngoc Bao Anh",
-        member_image: require("../../images/body/team/student_new/Pham_Ngoc_Bao_Anh.jpg")
-      },
+      }
     ]
   }
 ]

@@ -16,6 +16,7 @@ import florida from "../../images/body/acknow/florida.svg";
 import hust from "../../images/body/acknow/hust.svg";
 import masa from "../../images/body/acknow/masa.svg";
 import soict from "../../images/body/acknow/soict.svg";
+import vinhealth from "../../images/body/acknow/vinhealth.svg";
 
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 import Underline from "../../Header/Underline";
@@ -40,7 +41,7 @@ const Acknowledge = () => {
                     <img src={soict} id="logo6" className="logo" />
                     <img src={florida} id="logo7" className="logo" />
                     <img src={masa} id="logo8" className="logo" />
-                    <img src={masa} id="logo8" className="logo" />
+                    <img src={vinhealth} id="logo9" className="logo" />
                     {/* <img src={logo} id="logo9" className="logo" /> */}
                 </div>
                 <div className="content" style={{ display: 'none' }}>
