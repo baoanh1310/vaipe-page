@@ -1,100 +1,40 @@
-.tba
-  text-align: center
-  font-size: 40px
-  min-height: 53vh
-  font-weight: bold
-  margin-top: 50px
-
-.modalBtn
-  display: flex
-  flex-direction: row
-  justify-content: center
-  align-items: center
-  padding: 24px
-  width: 218px
-  height: 48px
-  border: 1px solid #2CB5C8
-  box-sizing: border-box
-  border-radius: 48px
-  background-color: transparent
-  color: #2CB5C8
-  margin: auto
-  margin-bottom: 96px
-
-.pubModal
-  .modalTitle
-    font-family: 'Quicksand'
-    font-style: normal
-    font-weight: 700
-    font-size: 16px
-    line-height: 19px
-    color: #2CB5C8
-  .publications_modal
-    margin-top: 64px
-    margin-bottom: 40px
-    margin-left: 113px
-    margin-right: 113px
-    padding-bottom: 96px
-    .title_modal
-      color: #2CB5C8
-      font-family: 'Quicksand'
-      font-style: normal
-      font-weight: 700
-      font-size: 24px
-      line-height: 24px
-      margin-bottom: 12px
-      margin-top: 40px
-    .publications_journals_modal
-      p
-        font-size: 16px
-        text-align: justify
-        margin-bottom: 24px
-    .publications_conferences_modal
-      p
-        font-size: 16px
-        text-align: justify
-        margin-bottom: 24px
-    .publications_invited_speeches_modal
-      margin-bottom: 35px
-
 .publications
-  margin-top: 64px
-  margin-left: 310px
-  margin-right: 310px
-  padding-bottom: 48px
-  .title 
-      color: #2CB5C8
-      font-family: 'Quicksand'
-      font-style: normal
-      font-weight: 700
-      font-size: 24px
-      line-height: 24px
-      margin-bottom: 12px
-      margin-top: 40px
-  .publications_journals
-    p
-      font-size: 16px
-      text-align: justify
-  .publications_conferences
-    p
-      font-size: 16px
-      text-align: justify
-  .publications_invited_speeches
-    margin-bottom: 35px
-    
-@media (max-width: 1199.98px)
-  .title
-    font-style: normal
-    font-weight: 700
-    font-size: 20px
-    line-height: 28px
-  .publications
-    margin-top: 40px
-    margin-bottom: 40px
-    margin-left: 20px
-    margin-right: 20px
-  .publications_modal
+  display: flex
+  flex-direction: column
+  background-repeat: no-repeat
+  background-position: bottom left
+  background-color: #E1FBFF
+  justify-content: center
+  text-align: center
+  padding-top: 48px
+
+  .papers
     width: 100%
-    margin-left: 20px
-    margin-right: 20px
-    border: 1px solid red
+    gap: 20px
+    max-width: 1140px
+    margin: auto
+    margin-bottom: 40px
+    display: flex
+    flex-direction: column
+    p
+      text-align: justify
+      font-size: 16px
+      font-family: 'Quicksand'
+      line-height: 20px
+      font-weight: normal
+
+@media (max-width: 1199.98px)
+  .publications
+    padding: 32px 20px 64px
+    
+
+@media (max-width: 767px)
+  .publications
+    padding-top: 24px
+    padding-bottom: 48px
+    
+    .papers
+      p
+        font-size: 14px
+        line-height: 20px
+        text-align: justify

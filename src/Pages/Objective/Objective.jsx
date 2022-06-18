@@ -128,7 +128,7 @@ const Objective = () => {
             <li>
               <div className="custom_bullet">
                 <img src={require("../../images/body/objective/custom_bullet_objective.svg")} />
-                To propose models for extracting information from raw data and fuse various data to provide clinical insights and disease risk prediction with supporting evidence.7. To construct a publicly available, normalized database of Vietnamese healthcare data for facilitating related research and a publicly available API library for analyzing and forecasting healthcare data.
+                To propose models for extracting information from raw data and fuse various data to provide clinical insights and disease risk prediction with supporting evidence. To construct a publicly available, normalized database of Vietnamese healthcare data for facilitating related research and a publicly available API library for analyzing and forecasting healthcare data.
               </div>
             </li>
             <li>

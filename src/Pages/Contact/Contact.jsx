@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <>
       <div 
-        className="block_title" style={{backgroundColor: '#E1FBFF'}}>
+        className="block_title">
           <p>Contact Us</p>
           <Underline />
       </div>

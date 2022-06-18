@@ -24,7 +24,7 @@ const TabItem = styled.div`
     border-bottom: 2px solid transparent;
     cursor: pointer;
     background: white;
-    border: 0;
+    border: 1px solid #2CB5C8;
     outline: 0;
     width: 291px;
     color: #666666;
@@ -49,7 +49,7 @@ const Resource = () => {
     return (
         <>
             <div
-                className="block_title"  style={{backgroundColor: '#E1FBFF'}}>
+                className="block_title" >
                 <p>Resources</p>
                 <Underline />
             </div>

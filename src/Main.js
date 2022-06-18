@@ -21,7 +21,7 @@ const menu_list = [
     { text: "Home", link: "/", id: "#home" },
     { text: "Objectives", link: "/objective", id: "#objective" },
     { text: "Team", link: "/team", id: "#team" },
-    // { text: "Publications", link: "/publication", id: "#4" },
+    { text: "Publications", link: "/publication", id: "#publication" },
     { text: "Resources", link: "/resource", id: "#resource" },
     { text: "Acknowledgement", link: "/acknowledge", id: "#acknowledgement" },
     // { text: "News & Events", link: "/news", id: "#7" },
@@ -97,9 +97,9 @@ const Main = () => {
             <div id="team">
                 <Team/>
             </div>
-            {/* <div id="4">
+            <div id="publication">
                 <Publication />
-            </div> */}
+            </div>
             <div id="resource"> 
                 <Resource />
             </div>
@@ -109,7 +109,8 @@ const Main = () => {
             {/* <div id="7">
                 <News id="7" />
             </div> */}
-            <div id="contact" className="background_cyan">
+            {/* <div id="contact" className="background_cyan"> */}
+            <div id="contact">
                 <Contact id="8" />
             </div>
             <ScrollToTopBtn />
