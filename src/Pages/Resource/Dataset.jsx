@@ -1,6 +1,9 @@
 import React from 'react';
 import './resource.sass';
 import datasets from '../../images/body/resources/datasets.png';
+// import resource4 from "../../images/body/resources/prescription.jpg";
+// import resource5 from "../../images/body/resources/pills.png";
+// import resource6 from "../../images/body/resources/sphygmomanometer.jpeg";
 import resource4 from "../../images/body/resources/resource4.svg";
 import resource5 from "../../images/body/resources/resource5.svg";
 import resource6 from "../../images/body/resources/resource6.svg";
