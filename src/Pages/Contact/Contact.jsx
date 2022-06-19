@@ -54,13 +54,13 @@ const Contact = () => {
           <img src={anhHieu} />
           <div className="humanInfo">
             <p className="title">Dr. Pham Huy Hieu</p>
-            <p className="location">College of Engineering & Computer Science, VinUni-Illinois<br/>Smart Health Center, VinUniversity</p>
+            <p className="location">College of Engineering & Computer Science, VinUni-Illinois<br/>Smart Health Center, <a href="https://vinuni.edu.vn/" target="_blank" style={{ color: "#666", textDecoration: "none"}}>VinUniversity</a></p>
           </div>
         </div>
 
         <div className="greet">
-          <p>We are looking for potential business partners to bring this cutting-edge technology to foster innovation in healthcare and better serve our community.</p>
-          <p>We are happy to answer any questions you might have, explore potential partnerships, and receive requests from interested affiliates.</p>
+          <p>We are looking for potential business partners to bring our cutting-edge technologies to foster innovation in healthcare and better serve our community. We are happy to answer any questions you might have, explore potential partnerships, and receive requests from interested affiliates.</p>
+          <p>Please use the following mailbox to reach out to us quickly.</p>
         </div>
 
         <form className="contactForm" onSubmit={handleSubmit}>

@@ -31,7 +31,7 @@ const Acknowledge = () => {
             </div>
             <div className="acknowledge" >
                 <div className="ack-content">
-                    <p>This project was supported by <b>Vingroup JSC</b> through <b>Vingroup Innovation Foundation (VINIF)</b>. We would like to acknowledge our clinical partners for providing us access to their image databases and for agreeing to make the dataset publicly available. We are especially thankful to all of our collaborators, including physicians, and technicians, who participated in the data collection and labeling process.</p>
+                    <p>This project was supported by <b><a href="https://vingroup.net/" target="_blank" style={{ color: "#666", textDecoration: "none"}}>Vingroup JSC</a></b> through <b><a href="https://vinif.org/" target="_blank" style={{ color: "#666", textDecoration: "none"}}>Vingroup Innovation Foundation (VINIF)</a></b>. We would like to acknowledge our clinical partners for providing us access to their image databases and for agreeing to make the dataset publicly available. We are especially thankful to all of our collaborators, including physicians, and technicians, who participated in the data collection and labeling process.</p>
                 </div>
                 <div className="logos">
                     <img src={vinbigdata} id="logo1" className="logo" />
