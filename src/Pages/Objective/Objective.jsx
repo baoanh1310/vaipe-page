@@ -63,7 +63,7 @@ const Objective = () => {
                 <li><span className="bold_word">Personalized</span> healthcare profile</li>
                 <li>Healthcare data managing and monitoring</li>
                 <li>Treatment supporting and enhancing</li>
-                <li><span className="bold_word">Privacy</span> conservation</li>
+                <li><span className="bold_word">Privacy</span> conversation</li>
               </ul>
             </div>
           </div>

@@ -19,7 +19,11 @@ const Tool = () => {
                         <img src={resource1} alt="" />
                     </div>
                     <div className="colDesc">
-                        What is a Web Based System? A web-based system is an application that is accessed via HTTP. The term web-based is usually used to describe applications that run in a web browser. It can, though, also be used to describe applications that have a very small component of the solution loaded on the client PC.
+                    <p>Necessary tools to facilitate the integration of our services into third-party application by following simple steps:</p>
+                    <p>1. Creating a VAIPE account</p>
+                    <p>2. Registering for API integration</p>
+                    <p>3. Integrating API in third-party application</p>
+                    <p>4. Monitoring API including usage, statistics, status, ...</p>
                     </div>
                 </div>
                 <div className="resourceCol">
@@ -30,7 +34,12 @@ const Tool = () => {
                         <img src={resource2} alt="" />
                     </div>
                     <div className="colDesc">
-                        API Platform is an Open Source web framework for API-first projects. Describe the API's data model or import an existing one from Schema.org and get instantly a fully featured read/write API with REST operations, data validation, pagination, sorting, filtering, Swagger documentation, an authorization system, invalidation-based HTTP cache, nested documents, content negotiation and support for modern hypermedia formats (JSON-LD, HAL and Hydra).
+                        <p>Full set of smart-health APIs, including the recognition and detection of:</p>
+                        <br/>
+                        <p>1. Prescriptions</p>
+                        <p>2. Medications/Pills</p>
+                        <p>3. Electrocardiogram</p>
+                        <p>4. Health-care devices (scale, thermometers, sphygmomanometer, ...)</p>
                     </div>
                 </div>
                 <div className="resourceCol">
@@ -41,7 +50,11 @@ const Tool = () => {
                         <img src={resource3} alt="" />
                     </div>
                     <div className="colDesc">
-                        Smartphone applications represent a technological opportunity to explore new approaches to mental health care, treatment, and research into psychiatric conditions, which in turn may better empower patients to become more actively involved in their own health care (Torous et al., 2014). Instead of relying upon retrospective data collection, smartphone applications enable a novel method of data collection.
+                        <p>AI-based smart healthcare applications for both Android/iOs devices, providing:</p>
+                        <br/>
+                        <p>1. Smart calendar and reminder for medication schedule</p>
+                        <p>2. Looking-up medication information using pill recognition and detection</p>
+                        <p>3. Tracking health information (weight, spO2, blood pressure, electrocardiogram, ...)</p>
                     </div>
                 </div>
             </div>
