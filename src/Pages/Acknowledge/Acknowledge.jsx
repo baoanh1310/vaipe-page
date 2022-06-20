@@ -37,11 +37,12 @@ const Acknowledge = () => {
                     <img src={vinbigdata} id="logo1" className="logo" />
                     <img src={vinif} id="logo2" className="logo" />
                     <img src={vinuni} id="logo3" className="logo" />
-                    <img src={hust} id="logo4" className="logo" />
+                    <img src={vinhealth} id="logo4" className="logo" />
+                    <img src={hust} id="logo5" className="logo" />
                     <img src={soict} id="logo6" className="logo" />
                     <img src={florida} id="logo7" className="logo" />
                     <img src={masa} id="logo8" className="logo" />
-                    <img src={vinhealth} id="logo9" className="logo" />
+                    
                     {/* <img src={logo} id="logo9" className="logo" /> */}
                 </div>
                 <div className="content" style={{ display: 'none' }}>

@@ -140,7 +140,7 @@ const member_list_new = [
       },
       {
         member_name: "Dr. Nguyen Phi Le",
-        member_image: require("../../images/body/team/member/Nguyen_Phi_Le.svg"),
+        member_image: require("../../images/body/team/member/Nguyen_Phi_Le.jpg"),
         school: 'Hanoi University of Science and Technology'
       },
       {
