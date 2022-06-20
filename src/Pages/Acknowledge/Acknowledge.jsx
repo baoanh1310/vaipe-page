@@ -16,7 +16,7 @@ import florida from "../../images/body/acknow/florida.svg";
 import hust from "../../images/body/acknow/hust.svg";
 import masa from "../../images/body/acknow/masa.svg";
 import soict from "../../images/body/acknow/soict.svg";
-import vinhealth from "../../images/body/acknow/vinhealth.svg";
+import vinhealth from "../../images/body/acknow/vin_health.svg";
 
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 import Underline from "../../Header/Underline";

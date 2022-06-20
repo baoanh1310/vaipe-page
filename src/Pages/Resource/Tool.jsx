@@ -18,7 +18,7 @@ const Tool = () => {
                     <div className="colImage">
                         <img src={resource1} alt="" />
                     </div>
-                    <div className="colDesc">
+                    <div className="colDescTool">
                     <p>Necessary tools to facilitate the integration of our services into third-party application by following simple steps:</p>
                     <p>1. Creating a VAIPE account</p>
                     <p>2. Registering for API integration</p>
@@ -33,7 +33,7 @@ const Tool = () => {
                     <div className="colImage">
                         <img src={resource2} alt="" />
                     </div>
-                    <div className="colDesc">
+                    <div className="colDescTool">
                         <p>Full set of smart-health APIs, including the recognition and detection of:</p>
                         <br/>
                         <p>1. Prescriptions</p>
@@ -49,7 +49,7 @@ const Tool = () => {
                     <div className="colImage">
                         <img src={resource3} alt="" />
                     </div>
-                    <div className="colDesc">
+                    <div className="colDescTool">
                         <p>AI-based smart healthcare applications for both Android/iOs devices, providing:</p>
                         <br/>
                         <p>1. Smart calendar and reminder for medication schedule</p>
