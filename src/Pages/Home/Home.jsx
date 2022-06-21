@@ -20,7 +20,7 @@ const Home = () => {
       <div
         className="home_header"
         style={{
-          backgroundImage: `url("${require("../../images/header/cover.png")}"`
+          backgroundImage: `url("${require("../../images/header/cover1.png")}"`
         }}
       >
         <div className="header_wrapper">
