@@ -20,7 +20,7 @@ const Home = () => {
       <div
         className="home_header"
         style={{
-          backgroundImage: `url("${require("../../images/header/vaipe_home.png")}"`
+          backgroundImage: `url("${require("../../images/header/cover.png")}"`
         }}
       >
         <div className="header_wrapper">
@@ -28,7 +28,7 @@ const Home = () => {
             VAIPE
           </div>
           <div className="home_subtitle">
-            Protective healthcare monitoring and supporting system for Vietnamese
+            Protective healthcare monitoring<br/>and supporting system<br/>for Vietnamese
           </div>
         </div>
         <img className="mouse_icon" src={MouseIcon} alt="mouse" />

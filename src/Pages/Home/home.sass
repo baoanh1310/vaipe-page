@@ -7,10 +7,10 @@
   background-color: #2A82C4
   width: 100%
   margin-top: 80px
-  display: flex
-  align-items: center
-  justify-content: center
-  flex-direction: column
+  // display: flex
+  // align-items: center
+  // justify-content: center
+  // flex-direction: column
 
   .mouse_icon
     width: 24px
@@ -20,19 +20,30 @@
     transform: translateX(-50%)
 
   .home_title
-    text-align: center
-    font-weight: bold
+    text-align: right
+    font-weight: 700
     font-family: 'Quicksand'
-    font-size: 96px
-    line-height: 120px
-    color: white
+    font-size: 140px
+    line-height: 175px
+    color: #FFFFFF
+    position: absolute
+    width: 528px
+    height: 256px
+    right: 113px
+    top: 171px
   .home_subtitle
-    text-align: center
-    font-weight: 500
-    font-size: 16px
     font-family: 'Quicksand'
-    line-height: 32px
-    color: white
+    font-style: normal
+    font-weight: 500
+    font-size: 24px
+    line-height: 40px
+    text-align: right
+    color: #FFFFFF
+    position: absolute
+    width: 813.09px
+    height: 120px
+    right: 113px
+    top: 334px
 
 .home
   display: flex
@@ -111,6 +122,27 @@
       height: 420px
 
 @media (max-width: 1199.98px) 
+  .home_header
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+
+    .home_title
+      position: absolute
+      width: 175px
+      height: 80px
+      left: 100px
+      top: 278px
+
+      font-family: 'Quicksand'
+      font-style: normal
+      font-weight: 700
+      font-size: 64px
+      line-height: 80px
+      text-align: center
+      color: #FFFFFF
+
   .home
     flex-direction: column
     align-items: center
