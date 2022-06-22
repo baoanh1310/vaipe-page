@@ -35,9 +35,9 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     let data = {
-      service_id: 'service_q8jlsjf',
-      template_id: 'template_za5d3ps',
-      user_id: 'fO2cQFoeZ1TxhwDig',
+      service_id: 'service_bny5g6d',
+      template_id: 'template_a4jt44p',
+      user_id: 'ON1t7He5R6MNd8J6r',
       template_params: {
         to_name: "Vaipe members",
         from_name: name + ' (' + email + ')',
