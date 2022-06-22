@@ -3,6 +3,7 @@ import "./contact.sass";
 import anhHieu from "../../images/body/team/member/Hieu_Pham.svg";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";
 import Underline from "../../Header/Underline";
+import axios from 'axios';
 
 const Contact = () => {
 
@@ -31,7 +32,19 @@ const Contact = () => {
     setMessage(value);
   }
 
-  const handleSubmit = () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    let data = {
+      service_id: 'service_q8jlsjf',
+      template_id: 'template_za5d3ps',
+      user_id: 'fO2cQFoeZ1TxhwDig',
+      template_params: {
+        to_name: "Vaipe members",
+        from_name: name + ' (' + email + ')',
+        message: title + '\n' + message
+      }
+    };
+    await axios.post('https://api.emailjs.com/api/v1.0/email/send', data);
     alert("Your message has sent to our team successfully!");
   }
 
@@ -67,11 +80,11 @@ const Contact = () => {
           <div className="firstRow row">
             <div className="nameInput">
               <label>Your full name <span>*</span></label><br/>
-              <input type="text" value={name} onChange={handleNameChange} placeholder="Please enter your full name" />
+              <input type="text" value={name} onChange={handleNameChange} placeholder="Please enter your full name" required />
             </div>
             <div className="emailInput">
               <label>E-mail address <span>*</span></label><br/>
-              <input type="email" value={email} onChange={handleEmailChange} placeholder="Please enter your email" />
+              <input type="email" value={email} onChange={handleEmailChange} placeholder="Please enter your email" required />
             </div>
           </div>
           <div className="titleInput row">
@@ -80,7 +93,7 @@ const Contact = () => {
           </div>
           <div className="messageInput row">
             <label>Your message</label><br/>
-            <textarea type="text" value={message} onChange={handleMessageChange} placeholder="Please enter your message" />
+            <textarea type="text" value={message} onChange={handleMessageChange} placeholder="Please enter your message" required />
           </div>
           <div className="btnGroup">
             <input id="sendBtn" className="btn" type="submit" value="Send" />

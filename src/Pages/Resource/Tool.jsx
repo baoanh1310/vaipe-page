@@ -8,7 +8,7 @@ const Tool = () => {
     return (
         <div className="content">
             <div className="textGroup">
-                <p>In the earliest days of medicine, people needed a trip to the doctor like a hole in the head. Because that’s exactly what they got: Healers and witch doctors were downright wanton in their use of trepanning — the practice of sharpening a stone to cut away a section of skull in fully conscious patients. Trepanning was done to relieve headaches, remove fractured skull fragments, provide spirits with an easy entrance or escape, sometimes just to provide rondelles — the leftover bony disks valued as charms or talismans.</p>
+                <p>We develop and provide various tools and frameworks to facilitate the integration of our services into end-users and third-party applications, including Web-based Systems, API Platforms, and Smartphone Applications</p>
             </div>
             <div className="colGroup">
                 <div className="resourceCol">
@@ -19,11 +19,11 @@ const Tool = () => {
                         <img src={resource1} alt="" />
                     </div>
                     <div className="colDescTool">
-                    <p>Necessary tools to facilitate the integration of our services into third-party application by following simple steps:</p>
+                    <p>Necessary tools to facilitate the integration of our services into third-party applications by following simple steps:</p>
                     <p>1. Creating a VAIPE account</p>
                     <p>2. Registering for API integration</p>
-                    <p>3. Integrating API in third-party application</p>
-                    <p>4. Monitoring API including usage, statistics, status, ...</p>
+                    <p>3. Integrating API in the third-party application</p>
+                    <p>4. Monitoring API including usage, statistics, status, etc</p>
                     </div>
                 </div>
                 <div className="resourceCol">
@@ -39,7 +39,7 @@ const Tool = () => {
                         <p>1. Prescriptions</p>
                         <p>2. Medications/Pills</p>
                         <p>3. Electrocardiogram</p>
-                        <p>4. Health-care devices (scale, thermometers, sphygmomanometer, ...)</p>
+                        <p>4. Health-care devices (scale, thermometers, sphygmomanometer, etc)</p>
                     </div>
                 </div>
                 <div className="resourceCol">
@@ -53,8 +53,8 @@ const Tool = () => {
                         <p>AI-based smart healthcare applications for both Android/iOs devices, providing:</p>
                         <br/>
                         <p>1. Smart calendar and reminder for medication schedule</p>
-                        <p>2. Looking-up medication information using pill recognition and detection</p>
-                        <p>3. Tracking health information (weight, spO2, blood pressure, electrocardiogram, ...)</p>
+                        <p>2. Looking up medication information using pill recognition and detection</p>
+                        <p>3. Tracking health information (weight, spO2, blood pressure, electrocardiogram, etc)</p>
                     </div>
                 </div>
             </div>

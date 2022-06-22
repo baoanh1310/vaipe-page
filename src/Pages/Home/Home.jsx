@@ -20,7 +20,7 @@ const Home = () => {
       <div
         className="home_header"
         style={{
-          backgroundImage: `url("${require("../../images/header/cover1.png")}"`
+          backgroundImage: `url("${require("../../images/header/cover.png")}"`
         }}
       >
         <div className="header_wrapper">
@@ -43,10 +43,13 @@ const Home = () => {
           <div className="home_content_line"></div>
           <div className="home_content_description">
             <p>VAIPE is a project funded by VinIF, composed of VinUniversity, Hanoi University of Science & Technology (HUST), The University of Massachusetts Boston (UMass Boston), and The University of South Florida (USF). The project aims to build an intelligent healthcare system to assist users in collecting, managing, and analyzing their health-related data. Our system enables users to collect heterogeneous data captured from multiple sources using a convenient smartphone camera, provides visualizations of analytical and predicted results, and includes functions to support users, for example, reminding of medication schedules and warning of early-disease risks. VAIPE is AI-assisted and involves original research and development of several key modules.</p>
-            <p>(1) Representation, storage, and processing of multi-source multi-type data,</p>
-            <p>(2) Training, learning, and mining data for clinical insights and disease risk prediction with supporting evidence,</p>
-            <p>(3) Enhancing user privacy and engagement in sharing health-related data,</p>
-            <p>(4) Optimizing resource allocation to reduce deployment costs while guaranteeing QoS constraints.</p>
+            <br/>
+            <ul>
+              <li>Representation, storage, and processing of multi-source multi-type data</li>
+              <li>Training, learning, and mining data for clinical insights and disease risk prediction with supporting evidence</li>
+              <li>Enhancing user privacy and engagement in sharing health-related data</li>
+              <li>Optimizing resource allocation to reduce deployment costs while guaranteeing QoS constraints</li>
+            </ul>
           </div>
 
           <a href="#team" className="explore">
