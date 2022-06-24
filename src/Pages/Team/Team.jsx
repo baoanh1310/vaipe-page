@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./team.sass";
-import { member_list_new, student_list_new, research_assistants, infra_engineers, developers } from "./data.js";
+import { member_list_new, research_assistants, developers } from "./data.js";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import ScrollToTopBtn from "../../Footer/ScrollToTopBtn";

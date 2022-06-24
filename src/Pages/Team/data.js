@@ -130,7 +130,7 @@ const member_list_new = [
       },
       {
         member_name: "Professor Duc Tran",
-        member_image: require("../../images/body/team/member/Duc_Tran.svg"),
+        member_image: require("../../images/body/team/member/Dr_Duc_Tran.png"),
         school: 'VinUniversity/University of Massachusetts'
       },
       {
