@@ -13,7 +13,7 @@ const Tool = () => {
             <div className="colGroup">
                 <div className="resourceCol">
                     <div className="colTitle">
-                        Web-based Systems
+                        <a href="https://partner.vaipe.io/login" target="_blank">Web-based Systems</a>
                     </div>
                     <div className="colImage">
                         <img src={resource1} alt="" />
@@ -28,7 +28,7 @@ const Tool = () => {
                 </div>
                 <div className="resourceCol">
                     <div className="colTitle">
-                        API Platforms
+                        <a href="https://partner.vaipe.io/login" target="_blank">API Platforms</a>
                     </div>
                     <div className="colImage">
                         <img src={resource2} alt="" />
