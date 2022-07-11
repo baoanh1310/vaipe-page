@@ -78,6 +78,44 @@
                     text-align: left
                     color: #333333
 
+                .tryBtn
+                    display: flex
+                    flex-direction: row
+                    justify-content: center
+                    align-items: center
+                    padding: 13px 16px
+                    gap: 10px
+                    margin-top: 24px
+
+                    width: 170px
+                    height: 46px
+
+                    border: 1px solid #2CB5C8
+                    border-radius: 1000px
+                    cursor: pointer
+                    text-decoration: none
+
+                    .tryText
+                        width: 75px
+                        height: 20px
+                        font-family: 'Quicksand'
+                        font-style: normal
+                        font-weight: 500
+                        font-size: 16px
+                        line-height: 20px
+                        text-align: center
+                        color: #2CB5C8
+                
+                .mobileMarket
+                    width: 100%
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    margin-top: 18px
+                    .market
+                        width: 170px
+                        height: 50px
+
 
 @media (max-width: 1199.98px)
     // .block_title
@@ -122,6 +160,15 @@
             .colGroup
                 margin-top: 24px
                 flex-direction: column
+                .resourceCol
+                    .mobileMarket
+                        display: flex
+                        justify-content: space-evenly
+                        align-items: center
+                        .market
+                            width: 150px
+                            height: 50px
             .colImage
                 img
                     width: 229px
+            
