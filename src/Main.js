@@ -8,6 +8,7 @@ import NewsDetail from "./Pages/NewsDetail/NewsDetail.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
 import Acknowledge from "./Pages/Acknowledge/Acknowledge";
 import Resource from "./Pages/Resource/Resource";
+import Challenge from "./Pages/Challenge/Challenge";
 import ScrollToTopBtn from "./Footer/ScrollToTopBtn";
 import "./Header/header.sass";
 
@@ -23,6 +24,7 @@ const menu_list = [
     { text: "Team", link: "/team", id: "#team" },
     { text: "Publications", link: "/publication", id: "#publication" },
     { text: "Resources", link: "/resource", id: "#resource" },
+    { text: "AI4VN", link: "/ai-challenge", id: "#challenge"},
     { text: "Acknowledgement", link: "/acknowledge", id: "#acknowledgement" },
     // { text: "News & Events", link: "/news", id: "#7" },
     { text: "Contact Us", link: "/contact", id: "#contact" }
@@ -103,14 +105,17 @@ const Main = () => {
             <div id="resource"> 
                 <Resource />
             </div>
+            <div id="challenge">
+                <Challenge />
+            </div>
             <div id="acknowledgement">
                 <Acknowledge />
             </div>
             {/* <div id="7">
                 <News id="7" />
             </div> */}
-            {/* <div id="contact" className="background_cyan"> */}
-            <div id="contact">
+            <div id="contact" className="background_cyan">
+            {/* <div id="contact"> */}
                 <Contact id="8" />
             </div>
             <ScrollToTopBtn />

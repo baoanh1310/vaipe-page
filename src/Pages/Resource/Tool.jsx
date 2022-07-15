@@ -66,10 +66,10 @@ const Tool = () => {
                         <p>3. Tracking health information (weight, spO2, blood pressure, electrocardiogram, etc)</p>
                     </div>
                     <div className="mobileMarket">
-                        <a href="#" target="_blank" className="market">
+                        <a href="" target="_blank" className="market">
                             <img src={appStore} alt="AppStore" />
                         </a>
-                        <a href="#" target="_blank" className="market">
+                        <a href="" target="_blank" className="market">
                             <img src={chPlay} alt="Google Play" />
                         </a>
                     </div>

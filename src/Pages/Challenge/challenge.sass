@@ -1,0 +1,82 @@
+.challenge
+    display: flex
+    flex-direction: column
+    background-repeat: no-repeat
+    background-position: bottom left
+    background-color: #E1FBFF
+    justify-content: center
+    padding-top: 48px
+
+    .challenge-content
+        width: 100%
+        gap: 20px
+        max-width: 1140px
+        margin: auto
+        margin-bottom: 40px
+        display: flex
+        flex-direction: column
+
+        p
+            text-align: justify
+            font-size: 16px
+            font-family: 'Quicksand'
+            line-height: 20px
+            font-weight: normal
+
+            .math-font
+              font-family: 'CMSY10'
+
+        .special-note
+            margin-top: -24px
+            margin-left: 24px
+        
+        ul
+            margin-top: -20px
+            li
+                text-align: justify
+                font-size: 16px
+                font-family: 'Quicksand'
+                line-height: 20px
+                font-weight: normal
+                margin-top: 8px
+
+        .challenge-title
+            font-family: 'Quicksand'
+            font-style: normal
+            font-weight: 700
+            font-size: 24px
+            height: 30px
+            line-height: 30px
+            color: #2CB5C8
+            text-align: left
+            margin-top: 10px
+
+        .data-cards
+          display: flex
+          justify-content: space-between
+
+          .card-item
+
+
+@media (max-width: 1199.98px)
+  .challenge
+    padding: 32px 20px 64px
+    
+
+@media (max-width: 767px)
+  .challenge
+    padding-top: 24px
+    padding-bottom: 48px
+    
+    .challenge-title
+      p
+        font-size: 14px
+        line-height: 20px
+        text-align: justify
+    
+    .data-cards
+      display: flex
+      flex-direction: column
+      .card-item
+        width: 100% !important
+        margin-top: 24px
