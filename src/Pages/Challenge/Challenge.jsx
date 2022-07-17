@@ -58,19 +58,22 @@ into three folds:</p>
                     <div className="data-cards">
                         <DataCard 
                             title="Training Data" 
-                            link="https://drive.google.com/drive/folders/1F7JvhcAIzZews4u8Cba_HntUZk25jQdh?usp=sharing" 
+                            ggLink="https://drive.google.com/drive/folders/1F7JvhcAIzZews4u8Cba_HntUZk25jQdh?usp=sharing" 
+                            oneLink=" https://husteduvn-my.sharepoint.com/:f:/g/personal/thanh_nt176874_sis_hust_edu_vn/Eu_I08_cNshAvkdrTU9EDicB4d8r9YK4VeSCFi5n3dycVA?e=xx2d9l"
                             pill="9,500 prescribed pill images"
                             prescription="1,171 prescription images"
                         />
                         <DataCard 
                             title="Public Test Data" 
-                            link="https://drive.google.com/file/d/146BJ1ER43mOUS7IL4Ewgs2vaAylCXt2l/view?fbclid=IwAR2kZtM6YrtvaiZisWZdBB69_mBYRs2BI_jWDLvtaMZ-6j-vAq6da5jpP0E" 
+                            ggLink="https://drive.google.com/file/d/146BJ1ER43mOUS7IL4Ewgs2vaAylCXt2l/view?fbclid=IwAR2kZtM6YrtvaiZisWZdBB69_mBYRs2BI_jWDLvtaMZ-6j-vAq6da5jpP0E" 
+                            oneLink="https://husteduvn-my.sharepoint.com/:u:/g/personal/thanh_nt176874_sis_hust_edu_vn/EWt8z7xEa6BGnx8UNGE4EPkBzk3OicO9Jpa5WBFjtmCsJw?e=ZNifJn"
                             pill="1,500 prescribed pill images"
                             prescription="172 prescription images"
                         />
                         <DataCard 
                             title="Private Test Data" 
-                            link="" 
+                            ggLink="" 
+                            oneLink=""
                             pill="1,600 prescribed pill images"
                             prescription="184 prescription images"
                         />
@@ -90,6 +93,12 @@ into three folds:</p>
                         <li><b>Public Test (15/07/2022 - 15/08/2022):</b> Public Test data is released to the AI community in Vietnam, which helps the research community to formalize their initial solution for the challenge. At the same time, participants are provided with real-world data, and an automatic evaluation system to test the performance of the team’s solution on public data. The maximum number of submissions in a day is 10.</li>
                         <li><b>Private Test (16/08/2022 - 31/08/2022):</b> Potential teams achieving high scores on the leaderboard will be selected to participate in the <b>Private Test</b> round. In this round, final submissions from teams are generated from the available model during the Public Test round. <b>The maximum number of submissions in a day is 5</b>. A list of those selected teams for the <b>Private Test</b> round will be informed later.</li>
                     </ul>
+                    <div className="challenge-title">Challenge Organizing Team</div>
+                    <ul style={{marginTop: "0px"}}>
+                        <li>Dr. Pham Huy Hieu - VinUni-Illinois Smart Health Center/VinUniversity</li>
+                        <li>Dr. Nguyen Phi Le - Hanoi University of Science and Technology</li>
+                        <li>Dr. Nguyen Thanh Hung - Hanoi University of Science and Technology</li>
+                    </ul>
                 </div>
                 
             </div>
@@ -99,7 +108,16 @@ into three folds:</p>
     )
 }
 
-const DataCard = ({title, pill, prescription, link}) => {
+const DataCard = ({title, pill, prescription, ggLink, oneLink}) => {
+
+    let buttonGroup = <div style={{display: "flex", justifyContent: "space-evenly"}}>
+        <CardButton isOnedrive={false} link={ggLink} />
+        <CardButton isOnedrive={true} link={oneLink} />
+    </div>
+
+    if (ggLink.length == 0 && oneLink.length == 0) {
+        buttonGroup = <CardButton isOnedrive={true} link={ggLink} />
+    }
 
     return (
       <Card style={{ width: '30%', border: "1px solid #2CB5C8" }} className="card-item text-center">
@@ -109,11 +127,20 @@ const DataCard = ({title, pill, prescription, link}) => {
             <li>{pill}</li>
             <li>{prescription}</li>
           </ul>
-          {link.length > 0 ? <Button href={link} target="_blank" variant="outline-info">Download</Button> : <Button variant="outline-info" disabled>Unavailable</Button>}
+          {buttonGroup}
+          
         </Card.Body>
       </Card>
     );
 }
 
+const CardButton = ({isOnedrive, link}) => {
+    let downloadText = isOnedrive ? "OneDrive" : "Google Drive";
+    return (
+        <>
+            {link.length > 0 ? <Button href={link} target="_blank" variant="outline-info">{downloadText}</Button> : <Button variant="outline-info" disabled>Unavailable</Button>}
+        </>
+    );
+}
 
 export default Challenge;
