@@ -58,13 +58,13 @@ into three folds:</p>
                     <div className="data-cards">
                         <DataCard 
                             title="Training Data" 
-                            link="https://drive.google.com/file/d/1DbIUQ0yq87Mw49LWPMqFl7biFYR4P63u/view?usp=sharing" 
+                            link="https://drive.google.com/drive/folders/1F7JvhcAIzZews4u8Cba_HntUZk25jQdh?usp=sharing" 
                             pill="9,500 prescribed pill images"
                             prescription="1,171 prescription images"
                         />
                         <DataCard 
                             title="Public Test Data" 
-                            link="https://drive.google.com/file/d/146BJ1ER43mOUS7IL4Ewgs2vaAylCXt2l/view?usp=sharing" 
+                            link="https://drive.google.com/file/d/146BJ1ER43mOUS7IL4Ewgs2vaAylCXt2l/view?fbclid=IwAR2kZtM6YrtvaiZisWZdBB69_mBYRs2BI_jWDLvtaMZ-6j-vAq6da5jpP0E" 
                             pill="1,500 prescribed pill images"
                             prescription="172 prescription images"
                         />
